@@ -1,0 +1,31 @@
+@import url("../style.css");
+
+.avatar__container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2rem;
+}
+.avatar__wrapper{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--main-black)  0px 4px 20px 0px;
+}
+.avatar--small{
+    height:4rem;
+    width:4rem;
+}
+.avatar--medium{
+    height:6rem;
+    width:6rem;
+}
+.avatar--large{
+    height:10rem;
+    width:10rem;
+}
+.avatar--extra-large{
+    height:14rem;
+    width:14rem;
+}
