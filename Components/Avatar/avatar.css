@@ -1,0 +1,27 @@
+@import url("../style.css");
+
+.avatar__wrapper{
+    height:min-content;
+    width:min-content;
+    margin:2rem;
+    padding:0;
+}
+.box-shadow{
+    box-shadow: var(--main-black)  0px 0px 10px 0px;
+}
+.avatar--small{
+    height:4rem;
+    width:4rem;
+}
+.avatar--medium{
+    height:6rem;
+    width:6rem;
+}
+.avatar--large{
+    height:10rem;
+    width:10rem;
+}
+.avatar--extra-large{
+    height:14rem;
+    width:14rem;
+}
