@@ -1,0 +1,59 @@
+@import url("../../style.css");
+
+.alert__icon{
+    margin-right:1rem;
+}
+.alert__solid--success{
+    padding:1rem 2rem;
+    padding-left:1;
+    width:auto;
+    background-color: var(--success);color:var(--text-white);
+    
+}
+
+.alert__solid--danger{
+    padding:1rem 2rem;
+    width:auto;
+    background-color: var(--danger);color:var(--text-white);
+}
+
+.alert__solid--warning{
+    padding:1rem 2rem;
+    width:auto;
+    background-color: var(--warning);color:var(--text-white);
+}
+
+.alert__solid--info{
+    padding:1rem 2rem;
+    width:auto;
+    background-color: var(--info);
+    color:var(--text-white);
+}
+
+.alert__outline--success{
+    padding:1rem 2rem;
+    width:auto;
+    border:2px solid var(--success);
+    color:var(--success);
+}
+
+.alert__outline--danger{
+    padding:1rem 2rem;
+    width:auto;
+    border:2px solid var(--danger);
+    color:var(--danger);
+}
+
+.alert__outline--warning{
+    padding:1rem 2rem;
+    width:auto;
+    border:2px solid var(--warning);
+    color:var(--warning);
+}
+
+.alert__outline--info{
+    padding:1rem 2rem;
+    width:auto;
+    border:2px solid var(--info);
+    color:var(--info);    
+}
