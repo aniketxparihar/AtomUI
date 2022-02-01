@@ -216,39 +216,6 @@
     </div>
     </div>
   </main>
-
-  <script>
-    const hamburger = document.querySelector("#navbar");
-    const sidebar = document.querySelector("#sidebar");
-    let open = false;
-    hamburger.addEventListener("click", (e) => {
-      e.preventDefault();
-      console.log(open)
-      if (open == false) {
-        sidebar.style.left = "0rem";
-
-      }
-      if (open == true) {
-        sidebar.style.left = "-30rem";
-
-      }
-      open = !open;
-    })
-    let togglebutton = document.querySelector("#badge__button--toggle");
-    let toggle = true;
-    togglebutton.addEventListener("click", (e) => {
-      e.preventDefault();
-      toggle = !toggle;
-      if (toggle == true) {
-        document.querySelector("#badge__button--toggle--right").style.display = "flex";
-        document.querySelector("#badge__button--toggle--left").style.display = "flex";
-      }
-      if (toggle == false) {
-        document.querySelector("#badge__button--toggle--right").style.display = "none";
-        document.querySelector("#badge__button--toggle--left").style.display = "none";
-      }
-    })
-  </script>
 </body>
 
 </html>
