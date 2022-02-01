@@ -1,0 +1,175 @@
+@import url("../style.css");
+
+/* Card Wrapper */
+.card__wrapper {
+  height:fit-content;
+  width: 25rem;
+  border-radius: 0.5rem;
+  background-color: var(--main-black);
+}
+.card__wrapper--horizontal {
+  height:fit-content;
+  width: 35rem;
+  border-radius: 1rem;
+  background-color: var(--main-white);
+}
+
+/* Card Image */
+.card__image {
+  height: 15rem;
+  width: inherit;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.card__image--tall {
+  height: 30rem;
+  width: inherit;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.card__image--horizontal {
+  height: 18rem;
+  width: 15rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: inherit;
+}
+/* card with no links and icons on right */
+.card__image--row {
+  border-top-left-radius: 0.5rem;
+  width: 110px;
+  height: 110px;
+}
+
+
+/* Card Header */
+.card__header {
+  width: inherit;
+  border-radius: inherit;
+}
+.card__header--row {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+}
+/* Card Headings*/
+.card__headings {
+  box-sizing: border-box;
+  height: 4rem;
+  padding: 1rem;
+}
+.card__heading {
+  height: 2rem;
+}
+/* card with heading on top  */
+
+.card__headings--top {
+  box-sizing: border-box;
+  height: 5rem;
+  padding: 1rem;
+  order: -1;
+}
+
+/* card with heading over the image*/
+.card__headings--over-img {
+  box-sizing: border-box;
+  height: 5rem;
+  position: absolute;
+  bottom: 4rem;
+  padding: 1rem;
+  color: white;
+}
+
+
+/* card with image and heading side by side */
+
+.card__headings--row {
+  box-sizing: border-box;
+  height: 5rem;
+  padding: 1rem;
+  align-self: flex-end;
+  color: black;
+}
+
+.card__headings--horizontal {
+  box-sizing: border-box;
+  height: 4rem;
+  padding: 1rem;
+  align-self: flex-start;
+  color: black;
+}
+
+
+
+/* Card Content*/
+.card__content {
+  height: 4rem;
+  box-sizing: border-box;
+}
+
+/* Card Footer*/
+.card__footer {
+  height: 5rem;
+}
+.card__footer--horizontal {
+  height: 8rem;
+}
+.card__footer__icons--right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card__links {
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+.card__icons {
+  width: 50%;
+  justify-content: space-evenly;
+}
+.card__icons a {
+  height: 4rem;
+  width: 4rem;
+}
+.card__icons i {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+
+/*  Miscellaneous */
+.card__shadow{
+  box-shadow: 2px 2px 60px -20px var(--secondary-black);
+}
+.liked{
+  margin-left:auto;
+  margin-right:2rem;
+}
+/* card with no icons */
+.hidden {
+  display: none;
+}
+.add{
+  height:4rem;
+  width:4rem;
+}
+.subtract{
+  height:4rem;
+  width:4rem;
+}
+.remove{
+  top:0;
+  right:0;
+  z-index:2;
+  height:2rem;
+  width:2rem;
+}
+.card__over-img--tag {
+  box-sizing: border-box;
+  height: 4rem;
+  position: absolute;
+  top: 0rem;
+  padding: 1rem;
+}
