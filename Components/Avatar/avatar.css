@@ -1,17 +1,13 @@
 @import url("../style.css");
 
-.avatar__container{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    gap:2rem;
-}
 .avatar__wrapper{
-    position: relative;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: var(--main-black)  0px 4px 20px 0px;
+    height:min-content;
+    width:min-content;
+    margin:2rem;
+    padding:0;
+}
+.box-shadow{
+    box-shadow: var(--main-black)  0px 0px 10px 0px;
 }
 .avatar--small{
     height:4rem;
