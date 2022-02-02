@@ -1,0 +1,10 @@
+@import url("../style.css");
+
+.input__tag{
+    top:-0.5rem;
+    left:2rem;
+}
+.input__text{
+    outline:none;
+    background:none
+}
