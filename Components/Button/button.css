@@ -1,0 +1,28 @@
+@import url("../style.css");
+
+.button{
+    max-height:4rem;
+    min-width:fit-content;
+    outline:none;
+    cursor:pointer;
+    padding:1rem 2rem;
+}
+.button__float{
+    max-height:4rem;
+    max-width:4rem;
+    cursor:pointer;
+}
+.button__icon{
+display:inline-flex;
+vertical-align:bottom;
+padding-right:0.5rem;
+}
+
+.button__icon--float{
+display:inline-flex;
+vertical-align:bottom;
+}
+
+.button:active,.button__float:active{
+ opacity:0.8;
+}
