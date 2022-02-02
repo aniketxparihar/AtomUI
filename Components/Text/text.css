@@ -1,0 +1,43 @@
+@import url("../style.css");
+
+/* ************************* */
+/* Texts */
+/* ************************* */
+#text__box{
+    padding:2rem;
+}
+.h1{
+    font-size: 4rem;
+}
+.h2{
+    font-size: 3.5rem;
+}
+.h3{
+    font-size: 3rem;
+}
+.h4{
+    font-size: 2.5rem;
+}
+.h5{
+    font-size: 2rem;
+}
+.h6{
+    font-size: 1.5rem;
+}
+
+.small{
+    font-size: 1.5rem;
+}
+.gray{
+    color:var(--main-gray);
+}
+.center{
+    text-align: center;
+}
+.paragraph{
+    font-size: 1.5rem;
+}
+.paragraph--margin{
+    font-size: 1.5rem;
+    margin:2rem;
+}

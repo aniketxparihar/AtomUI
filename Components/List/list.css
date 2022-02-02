@@ -1,0 +1,24 @@
+@import url("../style.css");
+
+.list__wrapper{
+    margin:2rem;
+    width:80%;
+    display:flex;
+    justify-content: center;
+}
+.list__spaced{
+    width:100%;
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.list__stacked{
+    width:100%;
+    list-style: none;
+    display:flex;
+    flex-direction: column;   
+}
+.list__item{
+    width:100%;
+}
