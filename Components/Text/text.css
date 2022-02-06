@@ -1,8 +1,7 @@
 @import url("../style.css");
 
-/* ************************* */
 /* Texts */
-/* ************************* */
+
 #text__box{
     padding:2rem;
 }
@@ -26,11 +25,9 @@
 }
 
 .small{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
-.gray{
-    color:var(--main-gray);
-}
+
 .center{
     text-align: center;
 }
@@ -41,3 +38,4 @@
     font-size: 1.5rem;
     margin:2rem;
 }
+
