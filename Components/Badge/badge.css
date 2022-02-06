@@ -4,12 +4,12 @@
 
 /* badge positions */
 .badge--right{
-  top:0px;
-  right:0px;
+  top:-2px;
+  right:-2px;
 }
 .badge--left{
-  top:0px;
-  left:0px;
+  top:-2px;
+  left:-2px;
 }
 
 /* button badge positions*/
@@ -24,20 +24,20 @@
 
 /* avatar badge positions*/
 .badge__position--small{
-  bottom:0rem;
-  right:0rem;
+  bottom:-0.4rem;
+  right:-0.4rem;
 }
 .badge__position--medium{
+  bottom:-0.1rem;
+  right:-0.1rem;
+}
+.badge__position--large{
   bottom:0.5rem;
   right:0.5rem;
 }
-.badge__position--large{
+.badge__position--extra-large{
   bottom:1rem;
   right:1rem;
-}
-.badge__position--extra-large{
-  bottom:1.5rem;
-  right:1.5rem;
 }
 
 
@@ -47,7 +47,15 @@
   width:2rem;
 }
 .badge--large{
-  height:3rem;
-  width:3rem;
+  height:2.5rem;
+  width:2.5rem;
 }
 
+
+.txt__badge{
+ padding-left:1.5rem;
+ padding-right:1.5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
