@@ -9,18 +9,19 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Atom🗲</title>
   </head>
   <body>
     <div id="navbar">
       <i id="navbar__icon" class="material-icons">menu</i>
     </div>
     <main>
+      <div class="main__grid">
   <div id="sidebar">
-      <h1 id="sidebar__heading" class="txt-bold">Atom</h1>
+      <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">AtomUI</a></h1>
 
       <div id="sidebar__links">
-        <a href="../../index.html" id="sidebar__link" tabindex="1">
+        <a href="../../documentation.html" id="sidebar__link" tabindex="1">
           <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
 chevron_right
 </i>Docs.</div>
@@ -90,10 +91,10 @@ chevron_right
 chevron_right
 </i> Slider</div>
         </a>
-        <a href="../Toast/toast.html" id="sidebar__link" tabindex="1">
+        <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
           <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
 chevron_right
-</i> Toast</div>
+</i> snackbar</div>
         </a>
         <a href="../Text/text.html" id="sidebar__link" tabindex="1">
           <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
@@ -103,53 +104,61 @@ chevron_right
       </div>
     </div>
     <div id="documentation">
-      <h1 id="documentation__heading"></span>Lists</h1>
+      
+        <h1 id="documentation__heading"></span>Lists</h1>
+      <div class="width-half">
       <h1 class=" txt-4xl txt-black m-4">Spaced List</h1>
-      <div class="list__wrapper">
+      <div class="list__wrapper flex flex-col bg-main-black">
+        <div class="list__head txt-3xl txt-main-white p-4">Search</div>
         <ul class="list__spaced">
-          <li class="list__item txt-2xl bg-gray-200 p-4 ">Item 1</li>
-          <li class="list__item txt-2xl bg-gray-200 p-4 ">Item 2</li>
-          <li class="list__item txt-2xl bg-gray-200 p-4 ">Item 3</li>
-          <li class="list__item txt-2xl bg-gray-200 p-4 ">Item 4</li>
-          <li class="list__item txt-2xl bg-gray-200 p-4 ">Item 5</li>
+          <li class="list__item txt-2xl txt-main-white p-4 ">Item 1</li>
+          <li class="list__item txt-2xl txt-main-white p-4 ">Item 2</li>
+          <li class="list__item txt-2xl txt-main-white p-4 ">Item 3</li>
         </ul>
       </div>
       <h1 class=" txt-4xl txt-black m-4">Stacked List</h1>
-      <div class="list__wrapper">
-        <ul class="list__stacked">
-          <li class="list__item txt-2xl bg-light-blue-200 p-4 ">Item 1</li>
-          <li class="list__item txt-2xl bg-red-200 p-4 ">Item 2</li>
-          <li class="list__item txt-2xl bg-green-200 p-4 ">Item 3</li>
-          <li class="list__item txt-2xl bg-yellow-200 p-4 ">Item 4</li>
-          <li class="list__item txt-2xl bg-violet-200 p-4 ">Item 5</li>
-        </ul>
+      <div class="list__wrapper flex flex-col bg-main-black">
+        <div class="list__head txt-3xl txt-main-white p-4">Categories</div>
+        <div class="list__stacked">
+          <div class="list__item txt-2xl txt-main-white p-4 ">Shorts</div>
+          <div class="list__item txt-2xl txt-main-white p-4 ">Tshirts</div>
+          <div class="list__item txt-2xl txt-main-white p-4 ">Hoodie</div>
+          <div class="list__item txt-2xl txt-main-white p-4 ">Bomber</div>
+        </div>
+      </div>
+      <h1 class=" txt-4xl txt-black m-4">Select List</h1>
+      <div class="list__wrapper flex flex-col bg-main-black">
+        <div class="list__head txt-4xl txt-main-white p-8">Search</div>
+        <div class="list__select p-8">
+          <div class="flex">
+          <input type="checkbox" id="option_one" name="option_one" class="list__item__select" value="Bike">
+          <label class="txt-xl txt-main-white"for="option_one"> Men</label>
+          </div>
+         
+          <div class="flex">
+          <input type="checkbox" id="option_one" name="option_one" class="list__item__select" value="Bike">
+          <label class="txt-xl txt-main-white"for="option_one"> Women</label>
+          </div>
+
+          <div class="flex">
+          <input type="checkbox" id="option_one" name="option_one" class="list__item__select" value="Bike">
+          <label class="txt-xl txt-main-white"for="option_one"> Children</label>
+          </div>
+          
+        </div>
+      </div>
+      
+        
       </div>
       <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list__wrapper%2522%253E%250A%253Cul%2520class%253D%2522list__spaced%2522%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-gray-200%2520p-4%2520%2522%253EItem%25201%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-gray-200%2520p-4%2520%2522%253EItem%25202%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-gray-200%2520p-4%2520%2522%253EItem%25203%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-gray-200%2520p-4%2520%2522%253EItem%25204%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-gray-200%2520p-4%2520%2522%253EItem%25205%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522list__wrapper%2522%253E%250A%253Cul%2520class%253D%2522list__stacked%2522%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-light-blue-200%2520p-4%2520%2522%253EItem%25201%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-red-200%2520p-4%2520%2522%253EItem%25202%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-green-200%2520p-4%2520%2522%253EItem%25203%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-yellow-200%2520p-4%2520%2522%253EItem%25204%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-violet-200%2520p-4%2520%2522%253EItem%25205%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-    </div>
+      src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list__wrapper%2522%253E%250A%253Cul%2520class%253D%2522list__spaced%2522%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-gray-200%2520p-4%2520%2522%253EItem%25201%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-gray-200%2520p-4%2520%2522%253EItem%25202%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-gray-200%2520p-4%2520%2522%253EItem%25203%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-gray-200%2520p-4%2520%2522%253EItem%25204%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-gray-200%2520p-4%2520%2522%253EItem%25205%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522list__wrapper%2522%253E%250A%253Cul%2520class%253D%2522list__stacked%2522%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-light-blue-200%2520p-4%2520%2522%253EItem%25201%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-red-200%2520p-4%2520%2522%253EItem%25202%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-green-200%2520p-4%2520%2522%253EItem%25203%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-yellow-200%2520p-4%2520%2522%253EItem%25204%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list__item%2520txt-2xl%2520bg-violet-200%2520p-4%2520%2522%253EItem%25205%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+      sandbox="allow-scripts allow-same-origin">
+      </iframe>
+
+      
+    </div></div>
     </main>
     
-    <script>
-      const hamburger=document.querySelector("#navbar");
-      const sidebar=document.querySelector("#sidebar");
-      let open=false;
-      hamburger.addEventListener("click",(e)=>{
-        e.preventDefault();
-        console.log(open)
-        if(open==false)
-        {
-            sidebar.style.left="0rem";
-           
-        }
-        if(open==true)
-        {
-          sidebar.style.left="-30rem";
-         
-        }
-         open=!open;
-      })
-    </script>
+    <script src="../../script.js"></script>
   </body>
 </html>
