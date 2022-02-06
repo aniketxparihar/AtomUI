@@ -1,0 +1,32 @@
+@import url("style.css");
+
+#main{
+    height:100%;
+    width:100%;
+    background-color:var(--main-black);
+    /* background-image: url("hydrangea.png"); */
+    background-size: cover;
+}
+#main__text{
+ width:100%;
+ text-align: center;
+ font-size: 6rem;
+ bo
+}
+#secondary__text{
+    text-align: center;
+    
+}
+#me{
+    justify-self: flex-end;
+}
+.fa{
+    margin-right: 1rem;
+    
+}
+#contact{
+    margin-left:auto;
+    color:var(--light-blue-600);
+}
+
+
