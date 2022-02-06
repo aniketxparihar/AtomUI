@@ -109,12 +109,15 @@
 
 /* Card Footer*/
 .card__footer {
-  height: 5rem;
+  height: 6rem;
+  
 }
 .card__footer--horizontal {
+  border-top:2px solid var(--gray-200);
   height: 8rem;
 }
 .card__footer__icons--right {
+  height: 6rem;
   display: flex;
   justify-content: flex-end;
 }
@@ -160,11 +163,11 @@
   width:4rem;
 }
 .remove{
-  top:0;
-  right:0;
+  top:1rem;
+  right:1rem;
   z-index:2;
-  height:2rem;
-  width:2rem;
+
+  opacity:1;
 }
 .card__over-img--tag {
   box-sizing: border-box;
