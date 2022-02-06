@@ -105,7 +105,7 @@
     </div>
     <div id="documentation">
       <h1 id="documentation__heading">Modal</h1>
-      <button class="button m-8 p-4 modal__button  txt-2xl txt-bold bg-violet-400 rounded-m">
+      <button onclick="modalOpen()" class="button m-8 p-4 modal__button  txt-2xl txt-bold bg-violet-400 rounded-m">
         Modal
       </button>
       <iframe
@@ -118,7 +118,7 @@
       <div class="modal__screen ">
         <div class="modal__box flex justify-center align-center">
           <div class="modal">
-          <i class="material-icons remove remove__modal absolute txt-main-white pointer">cancel</i>
+          <i onclick="modalClose()" class="material-icons remove remove__modal absolute txt-main-white pointer">cancel</i>
         </div>
         </div> 
   </div>
