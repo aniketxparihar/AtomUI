@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Atom🗲</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <i id="navbar__icon" class="material-icons">menu</i>
+    </div>
+    <main>
+      <div class="main__grid">
+  <div id="sidebar">
+     <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">Atom🗲</a></h1>
+
+      <div id="sidebar__links">
+        <a href="../../documentation.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i>Docs.</div>
+        </a>
+        <a href="../Avatar/avatar.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i>Avatar</div>
+        </a>
+        <a href="../Alert/alert.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i>Alert</div>
+        </a>
+        <a href="../Badge/badge.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i>Badge</div>
+        </a>
+        <a href="../Button/button.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i>Button</div>
+        </a>
+        <a href="../Card/card.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i>Card</div>
+        </a>
+        <a href="../Image_/image.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i>Image</div>
+        </a>
+        <a href="../Input/input.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i>Input</div>
+        </a>
+        <a href="../List/list.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i>Lists</div>
+        </a>
+        <a href="../Modal/modal.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i>Modal</div>
+        </a>
+        <a href="../Navigation/navigation.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i>Navigation</div>
+        </a>
+        <a href="../Rating/rating.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i> Rating</div>
+        </a>
+        <a href="../Grid/grid.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i> Grid</div>
+        </a>
+        <a href="../Slider/slider.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i> Slider</div>
+        </a>
+        <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i> snackbar</div>
+        </a>
+        <a href="../Text/text.html" id="sidebar__link" tabindex="1">
+          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
+chevron_right
+</i>Text</div>
+        </a>
+      </div>
+    </div>
+    <div id="documentation">
+      <h1 id="documentation__heading">Slider</h1>
+      <div class="width-half m-8">
+        <div id="slider__value" class="txt-4xl txt-bold"></div>
+        <div class="flex align-center">
+          <div class="m-2 txt-2xl">0</div>
+          <input type="range" name="" min="0" max="1000" value="10" id="slider" onmousemove="changeValue()" >
+          <div class="m-2 txt-2xl">100</div>
+        </div>
+        
+        
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522slider__value%2522%2520class%253D%2522txt-4xl%2520txt-bold%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522flex%2520align-center%2522%253E%250A%253Cdiv%2520class%253D%2522m-2%2520txt-2xl%2522%253E0%253C%252Fdiv%253E%250A%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522%2522%2520min%253D%25220%2522%2520max%253D%25221000%2522%2520value%253D%252210%2522%2520id%253D%2522slider%2522%2520onmousemove%253D%2522changeValue%28%29%2522%2520%253E%250A%253Cdiv%2520class%253D%2522m-2%2520txt-2xl%2522%253E100%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 538px; height: 188px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+      </div>
+      </div>
+    </main>
+    
+   <script src="../../script.js"></script>
+  </body>
+</html>
