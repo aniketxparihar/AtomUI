@@ -35,7 +35,7 @@ background-image: url("netherlands.png");
 }
 
 .landing_page_svg{
-    height: 40rem;
+    height: 30rem;
 }
 
 @media only screen and (max-width: 1050px) {
