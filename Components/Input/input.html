@@ -9,18 +9,19 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>AtomUI</title>
   </head>
   <body>
     <div id="navbar">
       <i id="navbar__icon" class="material-icons">menu</i>
     </div>
     <main>
+      <div class="main__grid">
   <div id="sidebar">
-      <h1 id="sidebar__heading" class="txt-bold">Atom</h1>
+      <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">AtomUI</a></h1>
 
       <div id="sidebar__links">
-        <a href="../../index.html" id="sidebar__link" tabindex="1">
+        <a href="../../documentation.html" id="sidebar__link" tabindex="1">
           <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
 chevron_right
 </i>Docs.</div>
@@ -90,10 +91,10 @@ chevron_right
 chevron_right
 </i> Slider</div>
         </a>
-        <a href="../Toast/toast.html" id="sidebar__link" tabindex="1">
+        <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
           <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
 chevron_right
-</i> Toast</div>
+</i> snackbar</div>
         </a>
         <a href="../Text/text.html" id="sidebar__link" tabindex="1">
           <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
@@ -103,7 +104,8 @@ chevron_right
       </div>
     </div>
     <div id="documentation">
-      <h1 id="documentation__heading">Inputs</h1>
+      
+        <h1 id="documentation__heading">Inputs</h1>
       <div class="input__container relative width-half m-8">
         <input type="text" class="input__text width-full p-4 rounded-m border-gray-800 border-solid b-2 txt-xl">
         <h5 class="input__tag absolute txt-xl  bg-main-white">Name</h5>
@@ -120,28 +122,11 @@ chevron_right
   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%252F*%2520Normal%2520Input%2520*%252F%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input__text%2520width-full%2520p-4%2520rounded-m%2520border-gray-800%2520border-solid%2520b-2%2520txt-xl%2522%253E%250A%253Ch5%2520class%253D%2522input__tag%2520absolute%2520txt-xl%2520%2520bg-main-white%2522%253EName%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%250A%252F*%2520Valid%2520Input%2520*%252F%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input__text%2520width-full%2520p-4%2520rounded-m%2520border-green-400%2520txt-green-400%2520b-2%2520border-solid%2520txt-xl%2522%253E%250A%253Ch5%2520class%253D%2522input__tag%2520absolute%2520txt-xl%2520%2520bg-main-white%2522%253EName%253C%252Fh5%253E%250A%2520%2520%250A%252F*%2520InValid%2520Input%2520*%252F%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input__text%2520width-full%2520p-4%2520rounded-m%2520border-red-400%2520txt-green-400%2520b-2%2520border-solid%2520txt-xl%2522%253E%250A%253Ch5%2520class%253D%2522input__tag%2520absolute%2520txt-xl%2520bg-main-white%2520%2522%253EName%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
+      
+    </div>
     </div>
     </main>
     
-    <script>
-      const hamburger=document.querySelector("#navbar");
-      const sidebar=document.querySelector("#sidebar");
-      let open=false;
-      hamburger.addEventListener("click",(e)=>{
-        e.preventDefault();
-        console.log(open)
-        if(open==false)
-        {
-            sidebar.style.left="0rem";
-           
-        }
-        if(open==true)
-        {
-          sidebar.style.left="-30rem";
-         
-        }
-         open=!open;
-      })
-    </script>
+    <script src="../../script.js"></script>
   </body>
 </html>
