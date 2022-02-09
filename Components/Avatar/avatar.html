@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../../style.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  <title>Document</title>
+  <title>Atom🗲</title>
 </head>
 
 <body>
@@ -15,14 +15,15 @@
     <i id="navbar__icon" class="material-icons">menu</i>
   </div>
   <main>
+    <div class="main__grid">
     <div id="sidebar">
-      <h1 id="sidebar__heading" class="txt-bold">Atom</h1>
+   <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">Atom🗲</a></h1>
 
       <div id="sidebar__links">
-        <a href="../../index.html" id="sidebar__link" tabindex="1">
+        <a href="../../documentation.html" id="sidebar__link" tabindex="1">
           <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
 chevron_right
-</i>Docs.</div>
+</i>Docs</div>
         </a>
         <a href="../Avatar/avatar.html" id="sidebar__link" tabindex="1">
           <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
@@ -89,10 +90,10 @@ chevron_right
 chevron_right
 </i> Slider</div>
         </a>
-        <a href="../Toast/toast.html" id="sidebar__link" tabindex="1">
+        <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
           <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
 chevron_right
-</i> Toast</div>
+</i> snackbar</div>
         </a>
         <a href="../Text/text.html" id="sidebar__link" tabindex="1">
           <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
@@ -102,10 +103,13 @@ chevron_right
       </div>
     </div>
     <div id="documentation">
-      <h1 id="documentation__heading" ">Avatars.</h1>
-
-        <h1 class=" txt-4xl txt-black m-4">Round Avatars.</h1>
-      <div class="avatar__container m-8">
+      
+        <h1 id="documentation__heading" ">Avatars</h1>
+        <p id="documentation__brief">
+         Display profile pictures for you users using these flexible Avatar Components.
+        </p>
+        <h1 class=" txt-4xl txt-black m-4">Round Avatars</h1>
+      <div class="avatar__container m-8 ">
         <div class="avatar__wrapper rounded-full box-shadow flex justify-center align-center">
           <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
             class="avatar--small rounded-full" />
@@ -126,8 +130,8 @@ chevron_right
         </div>
       </div>
 
-      <h1 class="txt-4xl txt-black m-4">Square Avatars.</h1>
-      <div class="avatar__container m-8">
+      <h1 class="txt-4xl txt-black m-4">Square Avatars</h1>
+      <div class="avatar__container m-8 ">
         <div class="avatar__wrapper rounded-xl box-shadow  flex justify-center align-center">
           <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
             class="avatar--small rounded-xl" />
@@ -149,15 +153,18 @@ chevron_right
       </div>
       <h1 class=" txt-4xl txt-black m-4">Copy the code below to get started</h1>
       
-      <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%252F*%2520Rounded%2520*%252F%2509%2509%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-full%2520box-%2509%2509%2509shadow%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522class%253D%2522avatar--small%2520rounded-full%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-full%2520box-%2509%2509%2509shadow%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522class%253D%2522avatar--medium%2520rounded-full%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-full%2520box-%2509%2509%2509shadow%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522class%253D%2522avatar--large%2520rounded-full%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-full%2520box-%2509%2509%2509shadow%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522class%253D%2522avatar--extra-large%2520rounded-full%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F*%2520Square%2520*%252F%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-xl%2520box-shadow%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522class%253D%2522avatar--small%2520rounded-xl%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-xl%2520box-shadow%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522class%253D%2522avatar--medium%2520rounded-xl%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-xl%2520box-shadow%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522class%253D%2522avatar--large%2520rounded-xl%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-xl%2520box-shadow%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522class%253D%2522avatar--extra-large%2520rounded-xl%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
-  style="width: 538px; height: 723px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+      <div class="iframe__container">
+          <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%252F*%2520Round%2520Avatars%2520*%252F%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-full%2520box-shadow%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--small%2520rounded-full%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-full%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--medium%2520rounded-full%2520box-shadow%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-full%2520box-shadow%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--large%2520rounded-full%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-full%2520box-shadow%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--extra-large%2520rounded-full%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%252F*%2520Square%2520Avatars%2520*%252F%250A%250Adiv%2520class%253D%2522avatar__wrapper%2520rounded-xl%2520box-shadow%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--small%2520rounded-xl%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-xl%2520box-shadow%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--medium%2520rounded-xl%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-xl%2520box-shadow%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--large%2520rounded-xl%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-xl%2520box-shadow%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--extra-large%2520rounded-xl%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+          sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      
+    </div>
     </div>
   </main>
 
-
+  <script src="../../script.js"></script>
 </body>
 
 </html>
