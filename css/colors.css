@@ -1,6 +1,6 @@
-/* ************************* */
+
 /* Colors */
-/* ************************* */
+
 
 :root {
   --gray-50: #f9fafb;
@@ -96,16 +96,41 @@
   --secondary-white: #f3f4f6;
 
   --main-black: #1f2937;
-  --text-black: #374151;
+  --text-black: #000000;
   --secondary-black: #6b7280;
 
   --success:var(--green-400);
   --danger:var(--red-500);
   --warning:var(--yellow-500);
   --info:var(--main-black);
-
   --success-light:var(--green-200);
-
+  --primary:var(--dark-blue-400);
+  --secondary:var(--green-400);
+  --cta:var(--yellow-400);
+}
+.bg-none{
+  background: none;
+}
+.bg--primary{
+  background-color: var(--primary);
+}
+.bg--secondary{
+  background-color: var(--secondary);
+}
+.bg--cta{
+  background-color: var(--cta);
+}
+.border--primary{
+  border-color: var(--primary);
+}
+.txt--primary{
+  color: var(--primary);
+}
+.txt--secondary{
+  color: var(--secondary);
+}
+.txt--cta{
+  color: var(--cta);
 }
 .bg-main-white{
   background-color: var(--main-white);
@@ -114,10 +139,10 @@
   background-color: var(--main-black);
 }
 .txt-main-white{
-  color: var(--main-white);
+  color: var(--text-white);
 }
 .txt-main-black{
-  color: var(--main-black);
+  color: var(--text-black);
 }
 .bg--success{
   background-color: var(--success);
@@ -884,7 +909,7 @@
   color: var(--dark-blue-900);
 }
 
-/* text green classes */
+/* text Violet classes */
 .txt-violet-50 {
   color: var(--violet-50);
 }
