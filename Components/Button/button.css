@@ -2,7 +2,6 @@
 
 .button{
     max-height:4rem;
-    min-width:fit-content;
     outline:none;
     cursor:pointer;
     padding:1rem 2rem;
@@ -23,6 +22,9 @@ display:inline-flex;
 vertical-align:bottom;
 }
 
+.button:hover{
+ opacity:0.9;
+}
 .button:active,.button__float:active{
- opacity:0.8;
+ opacity:0.6;
 }

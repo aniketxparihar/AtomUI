@@ -7,20 +7,22 @@
     padding:1rem 2rem;
     padding-left:1;
     width:auto;
-    background-color: var(--success);color:var(--text-white);
-    
+    background-color: var(--success);
+    color:var(--text-white);
 }
 
 .alert__solid--danger{
     padding:1rem 2rem;
     width:auto;
-    background-color: var(--danger);color:var(--text-white);
+    background-color: var(--danger);
+    color:var(--text-white);
 }
 
 .alert__solid--warning{
     padding:1rem 2rem;
     width:auto;
-    background-color: var(--warning);color:var(--text-white);
+    background-color: var(--warning);
+    color:var(--text-white);
 }
 
 .alert__solid--info{
