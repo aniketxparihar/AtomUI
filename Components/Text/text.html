@@ -10,18 +10,20 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Atom🗲</title>
   </head>
   <body>
+    
     <div id="navbar">
       <i id="navbar__icon" class="material-icons">menu</i>
     </div>
     <main>
+      <div class="main__grid">
   <div id="sidebar">
-      <h1 id="sidebar__heading" class="txt-bold">Atom</h1>
+      <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">AtomUI</a></h1>
 
       <div id="sidebar__links">
-        <a href="../../index.html" id="sidebar__link" tabindex="1">
+        <a href="../../documentation.html" id="sidebar__link" tabindex="1">
           <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
 chevron_right
 </i>Docs.</div>
@@ -91,10 +93,10 @@ chevron_right
 chevron_right
 </i> Slider</div>
         </a>
-        <a href="../Toast/toast.html" id="sidebar__link" tabindex="1">
+        <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
           <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
 chevron_right
-</i> Toast</div>
+</i> snackbar</div>
         </a>
         <a href="../Text/text.html" id="sidebar__link" tabindex="1">
           <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
@@ -105,13 +107,15 @@ chevron_right
     </div>
     <div id="documentation">
       <h1 id="documentation__heading">Texts</h1>
-      <div id="documentation__component__container">
+      <p id="documentation__brief">
+        pre defined text sizes for more readability.
+        </p>
         <div id="text__box">
           <div class="small">Small Text</div>
         </div>
         
         <div id="text__box">
-          <div class="small gray">Gray Text</div>
+          <div class="small txt-gray-400">Gray Text</div>
         </div>
         
         <div id="text__box">
@@ -127,35 +131,20 @@ chevron_right
           <div class="h6">Heading 6 </div>
           
         </div>
-        <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522small%2522%253ESmall%2520Text%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522small%2520gray%2522%253EGray%2520Text%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522small%2520center%2522%253ECenter%2520Text%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h1%2522%253EHeading%25201%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h2%2522%253EHeading%25202%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h3%2522%253EHeading%25203%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h4%2522%253EHeading%25204%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h5%2522%253EHeading%25205%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h6%2522%253EHeading%25206%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520"
-  style="width: 538px; height: 253px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+        <div class="iframe__container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522small%2522%253ESmall%2520Text%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522small%2520txt-gray-400%2522%253EGray%2520Text%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522small%2520center%2522%253ECenter%2520Text%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h1%2522%253EHeading%25201%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h2%2522%253EHeading%25202%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h3%2522%253EHeading%25203%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h4%2522%253EHeading%25204%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h5%2522%253EHeading%25205%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h6%2522%253EHeading%25206%2520%253C%252Fdiv%253E%250A"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
 
-      </div>
+      
 
+    </div>
     </div>
   </main>
 
-  <script>
-    const hamburger = document.querySelector("#navbar");
-    const sidebar = document.querySelector("#sidebar");
-    let open = false;
-    hamburger.addEventListener("click", (e) => {
-      e.preventDefault();
-      console.log(open)
-      if (open == false) {
-        sidebar.style.left = "0rem";
-
-      }
-      if (open == true) {
-        sidebar.style.left = "-30rem";
-
-      }
-      open = !open;
-    })
-  </script>
+  <script src="../../script.js"></script>
 </body>
 
 </html>

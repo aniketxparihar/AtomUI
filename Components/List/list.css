@@ -1,24 +1,41 @@
 @import url("../style.css");
 
+
 .list__wrapper{
-    margin:2rem;
-    width:80%;
+    margin:0rem;
+    width:100%;
     display:flex;
     justify-content: center;
+    border:1px solid var(--gray-200);
 }
 .list__spaced{
-    width:100%;
+    min-width:100%;
     list-style: none;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    text-align: center;
     
 }
 .list__stacked{
-    width:100%;
+    max-width:100%;
     list-style: none;
     display:flex;
     flex-direction: column;   
 }
+.list__select{
+    width:fit-content;
+    list-style: none;
+    display:flex;
+    flex-direction: column; 
+    align-items: flex-start;  
+    margin:1rem 0.5rem;
+}
 .list__item{
-    width:100%;
+    min-width:fit-content;
+}
+.list__item__select{
+    margin-right: 8px;
+}
+.list__head{
+    border-bottom:1px solid var(--gray-200);
 }
