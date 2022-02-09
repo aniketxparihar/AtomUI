@@ -1,7 +1,7 @@
 
 /* Style Guides CSS */
-@import url("./styleGuide.css");
-@import url("./colors.css");
+@import url("./css/styleGuide.css");
+@import url("./css/colors.css");
 
 /* Component CSS */
 @import url("./Components/Avatar/avatar.css");
