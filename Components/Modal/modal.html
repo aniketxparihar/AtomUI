@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../../style.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  <title>Atom🗲</title>
+  <title>AtomUI</title>
 </head>
 
 <body>
@@ -108,7 +108,8 @@
       <p id="documentation__brief">
         Modals are very useful to grab users attention to a specific task.
         </p>
-      <button onclick="modalOpen()" class="button m-8 p-4 modal__button  txt-2xl txt-bold bg-violet-400 rounded-m">
+        <div class="h4 p-4 txt-main-white">General Purpose Customisable Modal</div>
+      <button onclick="modalOpen()" class="button m-8 p-4 modal__button  txt-2xl txt-bold bg--primary rounded-m">
         Modal
       </button>
       <div class="iframe__container">
@@ -122,8 +123,38 @@
   </main>
       <div class="modal__screen ">
         <div class="modal__box flex justify-center align-center">
-          <div class="modal">
+          <div class="modal bg-pink-400">
           <i onclick="modalClose()" class="material-icons remove remove__modal absolute txt-main-white pointer">cancel</i>
+                <div class="card__wrapper box-shadow flex flex-col m-8 bg--main-white relative">
+        <i class="material-icons remove absolute txt-main-white pointer">cancel</i>
+      <div class="card__header flex flex-col relative">
+        <img
+          class="card__image pointer"
+          src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+          alt=""
+        />
+        
+          <div class="card__headings p-4">
+            <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
+            <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
+          </div>
+          <p class="card__content txt-l bold txt-gray-400 p-4">
+            Visit ten places on our planet that are undergoing the biggest
+            changes today.
+          </p>
+        
+      </div>
+      <div class="card__footer flex align-center">
+        <div class="card__links p-2 align-center flex">
+          <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
+          <i class="material-icons txt-main-white">bookmark</i>
+        </div>
+        <div class="card__icons flex justify-center align-center">
+          <a class="heart pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+          <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+          <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a></div>
+      </div>
+    </div>
         </div>
         </div> 
   </div>

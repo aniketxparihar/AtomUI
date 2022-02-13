@@ -5,7 +5,12 @@
     outline:none;
     cursor:pointer;
     padding:1rem 2rem;
+    
 }
+.bg--none{
+    background: none;
+}
+
 .button__float{
     max-height:4rem;
     max-width:4rem;

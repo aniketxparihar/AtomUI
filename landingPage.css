@@ -1,11 +1,14 @@
 @import url("style.css");
 
 body{
-background-image: url("netherlands.png");
-    background-size: cover;
+
+    background-color: var(--main-black);
+}
+nav{
+    border-bottom: 1px solid var(--gray-400);
 }
 #main{
-    height:90%;
+    height:80%;
     width:100%;
     /* background-color:var(--main-black); */
     display: flex;
@@ -27,9 +30,12 @@ background-image: url("netherlands.png");
 }
 .fa{
     margin-right: 1rem;
+    position:relative;
     
 }
 #contact{
+    position: relative;
+    top:6px;
     margin-left:auto;
     color:var(--light-blue-600);
 }

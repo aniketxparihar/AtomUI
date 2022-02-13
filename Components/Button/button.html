@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <title>Atom🗲</title>
+    <title>AtomUI</title>
   </head>
   <body>
     <div id="navbar">
@@ -18,7 +18,7 @@
     <main>
       <div class="main__grid">
   <div id="sidebar">
-      <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">Atom🗲</a></h1>
+      <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">AtomUI</a></h1>
 
       <div id="sidebar__links">
         <a href="../../documentation.html" id="sidebar__link" tabindex="1">
@@ -109,31 +109,33 @@ chevron_right
       <p id="documentation__brief">
           Use our pre defined buttons for all use cases.
         </p>
-      <h1 class=" txt-4xl m-8 ">Solid Buttons</h1>
+        <div class="h4 p-4 txt-main-white">Solid Buttons</div>
+      
       <div id="button__container">
-        <button class="button m-8  p-4  txt-2xl txt-bold bg-violet-400 rounded-m">Primary</button>
-        <button class="button m-8  p-4 txt-2xl txt-bold bg-violet-200 rounded-m">Disabled</button>
+        <button class="button m-8  p-4  txt-2xl txt-bold bg--primary rounded-m">Primary</button>
+        <button class="button m-8  p-4 txt-2xl txt-bold txt-gray-400 bg-violet-200 rounded-m" aria-disabled="true">Disabled</button>
         <button class="button m-8  p-4 txt-2xl txt-bold bg--success rounded-m">Success</button>
         <button class="button m-8  p-4 txt-2xl txt-bold bg--warning rounded-m">warning</button>
         <button class="button m-8  p-4 txt-2xl txt-bold bg--danger rounded-m">Danger</button>
         <a class="button m-8  p-4 txt-2xl txt-bold bg-light-blue-400 rounded-m flex justify-center align-center" href="https://www.w3schools.com">Link Button</a>
       </div>
-      <h1 class=" txt-4xl  m-8 ">Outline Buttons</h1>
      
+     <div class="h4 p-4 txt-main-white">Outline Buttons</div>
+      
       <div id="button__container">
-        <button class="button m-8  p-4 txt-2xl txt-bold b-1 bg-main-white txt-violet-400 border-solid border-violet-400  rounded-m">Primary</button>
-        <button class="button m-8  p-4 txt-2xl txt-bold b-1 bg-main-white txt-violet-300 border-solid border-violet-300  rounded-m">Disabled</button>
-        <button class="button m-8  p-4 txt-2xl txt-bold b-1 bg-main-white txt--success border-solid border--success rounded-m">Success</button>
-        <button class="button m-8  p-4 txt-2xl txt-bold b-1 bg-main-white txt--warning border-solid border--warning rounded-m">warning</button>
-        <button class="button m-8  p-4 txt-2xl txt-bold b-1 bg-main-white txt--danger border-solid border--danger rounded-m">Danger</button>
-        <a class="button m-8  p-4 txt-2xl txt-bold b-1 bg-main-white border-solid border-light-blue-400 txt-light-blue-400 rounded-m flex justify-center align-center" href="https://www.w3schools.com">Link Button</a>
+        <button class="button m-8  p-4 txt-2xl txt-bold b-1 bg--none txt--primary border-solid border--primary  rounded-m">Primary</button>
+        <button class="button m-8  p-4 txt-2xl txt-bold b-1 bg--none txt-violet-200 border-solid border-violet-200  rounded-m" aria-disabled="true">Disabled</button>
+        <button class="button m-8  p-4 txt-2xl txt-bold b-1 bg--none txt--success border-solid border--success rounded-m">Success</button>
+        <button class="button m-8  p-4 txt-2xl txt-bold b-1 bg--none txt--warning border-solid border--warning rounded-m">warning</button>
+        <button class="button m-8  p-4 txt-2xl txt-bold b-1 bg--none txt--danger border-solid border--danger rounded-m">Danger</button>
+        <a class="button m-8  p-4 txt-2xl txt-bold b-1 bg--none border-solid border-light-blue-400 txt-light-blue-400 rounded-m flex justify-center align-center" href="https://www.w3schools.com">Link Button</a>
       </div>
-      <h1 class=" txt-4xl  m-8 ">Icon Buttons</h1>
+      <div class="h4 p-4 txt-main-white">Icon Buttons</div>
       <div id="button__container">
         <button class="button m-8 p-4 txt-2xl txt-bold bg-green-400 rounded-m flex justify-center align-center"><i class="button__icon material-icons">shopping_cart</i>Add to Cart</button>
         <button class="button m-8 p-4 txt-2xl txt-bold bg-red-500 rounded-m flex justify-center align-center"><i class="button__icon material-icons">shopping_cart</i>Remove Item</button>
       </div>
-      <h1 class=" txt-4xl  m-8 ">Floating Action Button</h1>
+      <div class="h4 p-4 txt-main-white">Floating Action Button</div>
       <div id="button__container">
         <button class="button__float rounded-full m-8 p-4 txt-2xl txt-bold bg-green-400 rounded-m flex justify-center align-center box-shadow"><i class="button__icon--float material-icons">add_circle_outline</i></button>
       </div>

@@ -56,6 +56,6 @@
 .alert__outline--info{
     padding:1rem 2rem;
     width:auto;
-    border:2px solid var(--info);
-    color:var(--info);    
+    border:2px solid var(--gray-400);
+    color:var(--gray-400);    
 }
