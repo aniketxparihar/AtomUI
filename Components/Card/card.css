@@ -173,6 +173,7 @@
   box-sizing: border-box;
   height: 4rem;
   position: absolute;
-  top: 0rem;
+  top: 1rem;
+  left:-1rem;
   padding: 1rem;
 }

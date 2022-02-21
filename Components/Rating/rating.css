@@ -2,12 +2,14 @@
 
 .rating input{
     display:none;
+    
 }
 .rating label{
     display: block;
     cursor:pointer;
     min-width:fit-content;
     position: relative;
+    margin-right:8px;
 }
 .rating label:before
 {

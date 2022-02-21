@@ -6,7 +6,7 @@
     width:100%;
     display:flex;
     justify-content: center;
-    border:1px solid var(--gray-200);
+    border:1px solid var(--gray-600);
 }
 .list__spaced{
     min-width:100%;
@@ -37,5 +37,5 @@
     margin-right: 8px;
 }
 .list__head{
-    border-bottom:1px solid var(--gray-200);
+    border-bottom:1px solid var(--gray-600);
 }

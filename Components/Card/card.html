@@ -1,501 +1,638 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../style.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <title>AtomUI</title>
-  </head>
-  <body>
-    <div id="navbar">
-      <i id="navbar__icon" class="material-icons">menu</i>
-    </div>
-    <main>
-      <div class="main__grid">
-  <div id="sidebar">
-      <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">AtomUI</a></h1>
 
-      <div id="sidebar__links">
-        <a href="../../documentation.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Docs.</div>
-        </a>
-        <a href="../Avatar/avatar.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Avatar</div>
-        </a>
-        <a href="../Alert/alert.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Alert</div>
-        </a>
-        <a href="../Badge/badge.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Badge</div>
-        </a>
-        <a href="../Button/button.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Button</div>
-        </a>
-        <a href="../Card/card.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Card</div>
-        </a>
-        <a href="../Image_/image.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Image</div>
-        </a>
-        <a href="../Input/input.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Input</div>
-        </a>
-        <a href="../List/list.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Lists</div>
-        </a>
-        <a href="../Modal/modal.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Modal</div>
-        </a>
-        <a href="../Navigation/navigation.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Navigation</div>
-        </a>
-        <a href="../Rating/rating.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i> Rating</div>
-        </a>
-        <a href="../Grid/grid.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i> Grid</div>
-        </a>
-        <a href="../Slider/slider.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i> Slider</div>
-        </a>
-        <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i> snackbar</div>
-        </a>
-        <a href="../Text/text.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Text</div>
-        </a>
-      </div>
-    </div>
-    <div id="documentation">
-      
-        <h1 id="documentation__heading"> Cards</h1>
-      <p id="documentation__brief">
-       Use different types of card components to display items or posts.
-        </p>
-        <div class="h4 p-4 txt-main-white">Media Cards</div>
-      <div class="card__container">
-      <div class="card__wrapper box-shadow flex flex-col m-8 bg--main-white relative">
-        <i class="material-icons remove absolute txt-main-white pointer">cancel</i>
-      <div class="card__header flex flex-col relative">
-        <img
-          class="card__image pointer"
-          src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        
-          <div class="card__headings p-4">
-            <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
-            <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
-          </div>
-          <p class="card__content txt-l bold txt-gray-400 p-4">
-            Visit ten places on our planet that are undergoing the biggest
-            changes today.
-          </p>
-        
-      </div>
-      <div class="card__footer flex align-center">
-        <div class="card__links p-2 align-center flex">
-          <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
-          <i class="material-icons txt-main-white">bookmark</i>
-        </div>
-        <div class="card__icons flex justify-center align-center">
-          <a class="heart pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
-          <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
-          <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a></div>
-      </div>
-    </div>
-     
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../../style.css" />
+  <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+  <script src="/assets/js/rainbow-cusom.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <title>AtomUI</title>
+</head>
 
-    <div class="card__wrapper box-shadow  flex flex-col m-8 bg--main-white">
-      <div class="card__header flex flex-col relative">
-        <img
-          class="card__image pointer"
-          src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        
-          <div class="card__headings--over-img p-4">
-            <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
-            <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
-          </div>
-          <p class="card__content txt-l bold txt-gray-400 p-4">
-            Visit ten places on our planet that are undergoing the biggest
-            changes today.
-          </p>
-        
-      </div>
-      <div class="card__footer flex align-center">
-        <div class="card__links p-2 align-center flex">
-          <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
-          <i class="material-icons txt-main-white">bookmark</i>
-        </div>
-        <div class="card__icons flex justify-center align-center">
-          <a class="heart pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
-          <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
-          <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a></div>
-      </div>
-    </div>
-
-    <div class="card__wrapper box-shadow  flex flex-col m-8 bg--main-white">
-      <div class="card__header--row flex flex-col relative">
-        <img
-          class="card__image--row pointer"
-          src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        
-           <div class="card__headings--row p-4">
-            <p class="card__heading txt-xl txt-bold txt-gray-200">Our Changing Planet</p>
-            <p class="card__sub__heading txt-l bold txt-gray-300">by Kurt Wagner</p>
-          </div>
-          <p class="card__content txt-l bold txt-gray-400 p-4 hidden">
-            Visit ten places on our planet that are undergoing the biggest
-            changes today.
-          </p>
-      </div>
-      <div class="card__footer flex align-center">
-        <div class="card__links p-2 align-center flex">
-          <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
-          <i class="material-icons txt-main-white">bookmark</i>
-        </div>
-        <div class="card__icons flex justify-center align-center">
-          <a class="heart pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
-          <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
-          <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a></div>
-      </div>
-    </div>
- 
-    <div class="card__wrapper box-shadow flex flex-col m-8 bg--main-white">
-      <div class="card__header flex flex-col relative">
-        <img
-          class="card__image pointer"
-          src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        
-          <div class="card__headings--top p-4">
-            <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
-            <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
-          </div>
-          <p class="card__content txt-l bold txt-gray-400 p-4">
-            Visit ten places on our planet that are undergoing the biggest
-            changes today.
-          </p>
-        
-      </div>
-      <div class="card__footer flex align-center">
-        <div class="card__links p-2 align-center flex">
-          <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
-          <i class="material-icons txt-main-white">bookmark</i>
-        </div>
-        <div class="card__icons flex justify-center align-center">
-          <a class="heart pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
-          <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
-          <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a></div>
-      </div>
-    </div>
- 
-    <div class="card__wrapper box-shadow  flex flex-col m-8 bg--main-white">
-      <div class="card__header flex flex-col relative">
-        <img
-          class="card__image pointer"
-          src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        
-          <div class="card__headings p-4">
-            <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
-            <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
-          </div>
-          <p class="card__content txt-l bold txt-gray-400 p-4">
-            Visit ten places on our planet that are undergoing the biggest
-            changes today.
-          </p>
-        
-      </div>
-      <div class="card__footer flex align-center">
-        <div class="card__links p-2 align-center flex hidden">
-          <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
-          <i class="material-icons txt-main-white">bookmark</i>
-        </div>
-        <div class="card__icons flex justify-center align-center">
-          <a class="heart pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
-          <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
-          <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a></div>
-      </div>
-    </div>
-
-    <div class="card__wrapper box-shadow  flex flex-col m-8 bg--main-white">
-      <div class="card__header flex flex-col relative">
-        <img
-          class="card__image pointer"
-          src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        
-          <div class="card__headings p-4">
-            <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
-            <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
-          </div>
-          <p class="card__content txt-l bold txt-gray-400 p-4">
-            Visit ten places on our planet that are undergoing the biggest
-            changes today.
-          </p>
-        
-      </div>
-      <div class="card__footer__icons--right flex align-center">
-        <div class="card__links p-2 align-center flex hidden">
-          <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
-          <i class="material-icons txt-main-white">bookmark</i>
-        </div>
-        <div class="card__icons flex justify-center align-center">
-          <a class="heart pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
-          <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
-          <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a></div>
-      </div>
-    </div>
- 
-     
+<body onload="sh_highlightDocument();">
   
-    <div class="card__wrapper box-shadow  flex flex-col m-8 bg--main-white">
-      <div class="card__header flex flex-col relative">
-        <img
-          class="card__image pointer"
-          src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        
-         <div class="card__headings p-4">
-            <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
-            <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
-          </div>
-          <p class="card__content txt-l bold txt-gray-400 p-4">
-            Visit ten places on our planet that are undergoing the biggest
-            changes today.
-          </p>
-        
-      </div>
-      <div class="card__footer flex align-center">
-       <div class="card__links p-2 align-center flex">
-          <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
-          <i class="material-icons txt-main-white">bookmark</i>
-        </div>
-        <div class="card__icons flex justify-center align-center hidden">
-          <a class="heart pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
-          <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
-          <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a></div>
-      </div>
-      
-    </div>
+  <div id="navbar">
+    <i id="navbar__icon" class="material-icons">menu</i>
+  </div>
+  <main>
+    <div class="main__grid">
+      <div id="sidebar">
+        <h1 id="sidebar__heading" class="txt-bold"><a href="../../home/index.html">AtomUI</a></h1>
 
-    <div class="card__wrapper box-shadow  flex flex-col m-8 bg--main-white">
-      <div class="card__header flex flex-col relative">
-        <img
-          class="card__image hidden"
-          src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        
-         <div class="card__headings p-4">
-            <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
-            <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
-          </div>
-          <p class="card__content txt-l bold txt-gray-400 p-4">
-            Visit ten places on our planet that are undergoing the biggest
-            changes today.
-          </p>
-        
-      </div>
-      <div class="card__footer flex align-center">
-       <div class="card__links p-2 align-center flex">
-          <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
-          <i class="material-icons txt-main-white">bookmark</i>
+        <div id="sidebar__links">
+          <a href="../../documentation.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Docs.</div>
+          </a>
+          <a href="../Avatar/avatar.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Avatar</div>
+          </a>
+          <a href="../Alert/alert.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Alert</div>
+          </a>
+          <a href="../Badge/badge.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Badge</div>
+          </a>
+          <a href="../Button/button.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Button</div>
+          </a>
+          <a href="../Card/card.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Card</div>
+          </a>
+          <a href="../Image_/image.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Image</div>
+          </a>
+          <a href="../Input/input.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Input</div>
+          </a>
+          <a href="../List/list.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Lists</div>
+          </a>
+          <a href="../Modal/modal.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Modal</div>
+          </a>
+          <a href="../Navigation/navigation.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Navigation</div>
+          </a>
+          <a href="../Rating/rating.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i> Rating</div>
+          </a>
+          <a href="../Grid/grid.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i> Grid</div>
+          </a>
+          <a href="../Slider/slider.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i> Slider</div>
+          </a>
+          <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i> snackbar</div>
+          </a>
+          <a href="../Text/text.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Text</div>
+          </a>
         </div>
-        <div class="card__icons flex justify-center align-center hidden">
-          <a class="heart pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
-          <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
-          <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a></div>
       </div>
-    </div>
-     </div>
- <div class="iframe__container">
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%250A%250A%253Cdiv%2520class%253D%2522card__wrapper box-shadow%2520flex%2520flex-col%2520m-8%2520bg--main-white%2520relative%2522%253E%250A%250A%252F*%2520use%2520the%2520below%2520div%2520for%2520remove%2520button%2520*%252F%250A%250A%253Cdiv%2520class%253D%2522remove%2520absolute%2520txt-gray-200%2520txt-xl%2520p-1%2520bg-main-black%2520rounded-xl%2520m-4%2520flex%2520justify-center%2520align-center%2520box-shadow%2520pointer%2522%253E%25E2%259C%2596%253C%252Fdiv%253E%250A%250A%252F*%2520use%2520card--header%252Ccard--header--row%2520for%2520getting%2520different%2520layouts*%252F%250A%250A%253Cdiv%2520class%253D%2522card__header%2520flex%2520flex-col%2520relative%2522%253E%250A%250A%252F*use%2520card__image%252Ccard__image--tall%252Ccard__image--horizontal%252Ccard__image--row%2520for%2520different%2520layouts%2520*%252F%250A%250A%253Cimg%2520class%253D%2522card__image%2520pointer%2522%2520src%253D%2522%2522alt%253D%2522%2522%252F%253E%250A%250A%252F*%2520use%2520card__headings%252C%2520card__headings--top%252C%2520card__headings--over-img%2520%252Ccard__headings--row%2520%252Ccard__headings--horizontal%2520for%2520different%2520layouts%2520*%252F%250A%250A%253Cdiv%2520class%253D%2522card__headings%2520p-4%2522%253E%250A%250A%252F*%2520use%2520hidden%2520to%2520remove%2520a%2520item%2520or%2520be%2520free%2520to%2520change%2520the%2520html%2520*%252F%250A%253Cp%2520class%253D%2522card__heading%2520txt-2xl%2520txt-bold%2520txt-gray-200%2522%253EOur%2520Changing%2520Planet%253C%252Fp%253E%250A%253Cp%2520class%253D%2522card__sub__heading%2520txt-xl%2520bold%2520txt-gray-300%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cp%2520class%253D%2522card__content%2520txt-l%2520bold%2520txt-gray-400%2520p-4%2522%253E%250AVisit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%252F*%2520use%2520card__footer%2520%252C%2520card__footer--horizontal%252C%2520card__footer__icons--rigt%2520for%2520different%2520layouts%2520*%252F%250A%253Cdiv%2520class%253D%2522card__footer%2520flex%2520align-center%2522%253E%250A%253Cdiv%2520class%253D%2522card__links%2520p-2%2520align-center%2520flex%2522%253E%250A%253Cbutton%2520class%253D%2522bg-violet-400%2520m-2%2520p-1%2520rounded-m%2520txt-m%2520pointer%2522%253EREAD%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bg-violet-400%2520m-2%2520p-1%2520rounded-m%2520txt-m%2520pointer%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card__icons%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Ca%2520class%253D%2522heart%2520pointer%2520flex%2520justify-center%2520align-center%2522%253E%253Ci%2520class%253D%2522sidebar__icon%2520material-icons%2520txt-l%2520txt-red-500%2522%253Efavorite_border%253C%252Fi%253E%253C%252Fa%253E%250A%253Ca%2520class%253D%2522share%2520pointer%2520flex%2520justify-center%2520align-center%2522%253E%253Ci%2520class%253D%2522sidebar__icon%2520material-icons%2520txt-l%2520txt-gray-200%2522%253Eshare%253C%252Fi%253E%253C%252Fa%253E%250A%253Ca%2520class%253D%2522more%2520pointer%2520flex%2520justify-center%2520align-center%2522%253E%253Ci%2520class%253D%2522sidebar__icon%2520material-icons%2520%2520txt-l%2520txt-gray-200%2522%253Emore_vert%253C%252Fi%253E%253C%252Fa%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+      <div id="documentation">
+
+        <h1 id="documentation__heading"> Cards</h1>
+        <p id="documentation__brief">
+          Use different types of card components to display items or posts.
+        </p>
+        <div class="documentation__subheading h4 p-4 txt-main-white">Media Cards</div>
+        <div class="component__container card__container">
+          <div class="card__wrapper box-shadow flex flex-col m-8 bg--main-white relative">
+            <i class="material-icons remove absolute txt-main-white pointer">cancel</i>
+            <div class="card__header flex flex-col relative">
+              <img class="card__image pointer"
+                src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+                alt="" />
+
+              <div class="card__headings p-4">
+                <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
+                <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
+              </div>
+              <p class="card__content txt-l bold txt-gray-400 p-4">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+
+            </div>
+            <div class="card__footer flex align-center">
+              <div class="card__links p-2 align-center flex">
+                <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
+                <i class="material-icons txt-main-white">bookmark</i>
+              </div>
+              <div class="card__icons flex justify-center align-center">
+                <a class="heart pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+                <a class="share pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+                <a class="more pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card__wrapper box-shadow  flex flex-col m-8 bg--main-white">
+            <div class="card__header flex flex-col relative">
+              <img class="card__image pointer"
+                src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+                alt="" />
+
+              <div class="card__headings--over-img p-4">
+                <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
+                <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
+              </div>
+              <p class="card__content txt-l bold txt-gray-400 p-4">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+
+            </div>
+            <div class="card__footer flex align-center">
+              <div class="card__links p-2 align-center flex">
+                <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
+                <i class="material-icons txt-main-white">bookmark</i>
+              </div>
+              <div class="card__icons flex justify-center align-center">
+                <a class="heart pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+                <a class="share pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+                <a class="more pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card__wrapper box-shadow  flex flex-col m-8 bg--main-white">
+            <div class="card__header--row flex flex-col relative">
+              <img class="card__image--row pointer"
+                src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+                alt="" />
+
+              <div class="card__headings--row p-4">
+                <p class="card__heading txt-xl txt-bold txt-gray-200">Our Changing Planet</p>
+                <p class="card__sub__heading txt-l bold txt-gray-300">by Kurt Wagner</p>
+              </div>
+              <p class="card__content txt-l bold txt-gray-400 p-4 hidden">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+            </div>
+            <div class="card__footer flex align-center">
+              <div class="card__links p-2 align-center flex">
+                <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
+                <i class="material-icons txt-main-white">bookmark</i>
+              </div>
+              <div class="card__icons flex justify-center align-center">
+                <a class="heart pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+                <a class="share pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+                <a class="more pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card__wrapper box-shadow flex flex-col m-8 bg--main-white">
+            <div class="card__header flex flex-col relative">
+              <img class="card__image pointer"
+                src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+                alt="" />
+
+              <div class="card__headings--top p-4">
+                <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
+                <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
+              </div>
+              <p class="card__content txt-l bold txt-gray-400 p-4">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+
+            </div>
+            <div class="card__footer flex align-center">
+              <div class="card__links p-2 align-center flex">
+                <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
+                <i class="material-icons txt-main-white">bookmark</i>
+              </div>
+              <div class="card__icons flex justify-center align-center">
+                <a class="heart pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+                <a class="share pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+                <a class="more pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card__wrapper box-shadow  flex flex-col m-8 bg--main-white">
+            <div class="card__header flex flex-col relative">
+              <img class="card__image pointer"
+                src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+                alt="" />
+
+              <div class="card__headings p-4">
+                <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
+                <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
+              </div>
+              <p class="card__content txt-l bold txt-gray-400 p-4">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+
+            </div>
+            <div class="card__footer flex align-center">
+              <div class="card__links p-2 align-center flex hidden">
+                <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
+                <i class="material-icons txt-main-white">bookmark</i>
+              </div>
+              <div class="card__icons flex justify-center align-center">
+                <a class="heart pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+                <a class="share pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+                <a class="more pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card__wrapper box-shadow  flex flex-col m-8 bg--main-white">
+            <div class="card__header flex flex-col relative">
+              <img class="card__image pointer"
+                src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+                alt="" />
+
+              <div class="card__headings p-4">
+                <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
+                <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
+              </div>
+              <p class="card__content txt-l bold txt-gray-400 p-4">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+
+            </div>
+            <div class="card__footer__icons--right flex align-center">
+              <div class="card__links p-2 align-center flex hidden">
+                <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
+                <i class="material-icons txt-main-white">bookmark</i>
+              </div>
+              <div class="card__icons flex justify-center align-center">
+                <a class="heart pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+                <a class="share pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+                <a class="more pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card__wrapper box-shadow  flex flex-col m-8 bg--main-white">
+            <div class="card__header flex flex-col relative">
+              <img class="card__image pointer"
+                src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+                alt="" />
+
+              <div class="card__headings p-4">
+                <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
+                <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
+              </div>
+              <p class="card__content txt-l bold txt-gray-400 p-4">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+
+            </div>
+            <div class="card__footer flex align-center">
+              <div class="card__links p-2 align-center flex">
+                <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
+                <i class="material-icons txt-main-white">bookmark</i>
+              </div>
+              <div class="card__icons flex justify-center align-center hidden">
+                <a class="heart pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+                <a class="share pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+                <a class="more pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card__wrapper box-shadow  flex flex-col m-8 bg--main-white">
+            <div class="card__header flex flex-col relative">
+              <img class="card__image hidden"
+                src="https://images.unsplash.com/photo-1542261777448-23d2a287091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+                alt="" />
+
+              <div class="card__headings p-4">
+                <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
+                <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
+              </div>
+              <p class="card__content txt-l bold txt-gray-400 p-4">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+
+            </div>
+            <div class="card__footer flex align-center">
+              <div class="card__links p-2 align-center flex">
+                <button class="bg--primary m-2 p-2 rounded-xl txt-l  txt-main-white pointer">READ</button>
+                <i class="material-icons txt-main-white">bookmark</i>
+              </div>
+              <div class="card__icons flex justify-center align-center hidden">
+                <a class="heart pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+                <a class="share pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+                <a class="more pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <pre><code data-language="html" >
+          
+  <div class="card__wrapper box-shadow flex flex-col m-8 bg--main-white relative">
+
+   <!-- use the below div for remove button  -->
+
+  <div class="remove absolute txt-gray-200 txt-xl p-1 bg-main-black rounded-xl m-4 flex justify-center align-center box-shadow pointer">✖</div>
+
+   <!-- use card--header,card--header--row for getting different layouts -->
+
+  <div class="card__header flex flex-col relative">
+
+  <!-- use card__image,card__image--tall,card__image--horizontal,card__image--row for different layouts  -->
+
+  <img class="card__image pointer" src=""alt=""/>
+
+   <!-- use card__headings, card__headings--top, card__headings--over-img ,card__headings--row ,card__headings--horizontal for different layouts  -->
+
+  <div class="card__headings p-4">
+
+   <!-- use hidden to remove a item or be free to change the html  -->
+  <p class="card__heading txt-2xl txt-bold txt-gray-200">Our Changing Planet</p>
+  <p class="card__sub__heading txt-xl bold txt-gray-300">by Kurt Wagner</p>
+  </div>
+  <p class="card__content txt-l bold txt-gray-400 p-4">
+  Visit ten places on our planet that are undergoing the biggest changes today.</p>
+  </div>
+
+   <!-- use card__footer , card__footer--horizontal, card__footer__icons--rigt for different layouts -->
+  <div class="card__footer flex align-center">
+  <div class="card__links p-2 align-center flex">
+  <button class="bg-violet-400 m-2 p-1 rounded-m txt-m pointer">READ</button>
+  <button class="bg-violet-400 m-2 p-1 rounded-m txt-m pointer">BOOKMARK</button>
+  </div>
+  <div class="card__icons flex justify-center align-center">
+  <a class="heart pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-red-500">favorite_border</i></a>
+  <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+  <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a></div>
+  </div>
+  </div>
+
+</code></pre>
+        
+<div class=" documentation__subheading h4 p-4 txt-main-white">Shopping Cards Vertical</div>
+        <div class="component__container card__container">
+          <div class="card__wrapper box-shadow flex flex-col m-8 bg--main-white ">
+            <div class="card__header flex flex-col relative">
+              <img class="card__image--tall pointer"
+                src="https://m.media-amazon.com/images/I/51e1LrMnhoL._AC_UY445_.jpg" alt="" />
+
+              <div class="card__headings">
+                <p class="txt-4xl txt-gray-100">Mens Hoodie</p>
+                <p class="txt-2xl txt-gray-400">Nike</p>
+              </div>
+
+            </div>
+
+            <div class="card__footer  m-1 flex align-center ">
+              <p class="txt-2xl bold txt-gray-100 m-2">₹2500</p>
+              <p class="txt-2xl bold m-0 txt-gray-400 line-through">₹5000</p>
+              <p class="txt-2xl bold m-2 txt-green-500">(50% Off)</p>
+              <i class="liked material-icons pointer txt-main-white">favorite_border</i>
+            </div>
+            <div class="card__links p-2 align-center flex">
+              <button
+                class="button  p-4 txt-2xl width-full txt-bold bg--primary rounded-m flex justify-center align-center">Buy
+                Now</button>
+            </div>
+            <div class="card__links p-2 align-center flex">
+              <button
+                class="button  p-4 txt-2xl width-full txt-bold border--primary b-2 border-solid txt--primary bg-none rounded-m flex justify-center align-center"><i
+                  class="button__icon material-icons">shopping_cart</i>Add to cart</button>
+            </div>
+
+            <div class="card__icons flex justify-center align-center hidden">
+              <a class="heart rounded-full pointer flex justify-center align-center "><i
+                  class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+              <a class="share rounded-full pointer flex justify-center align-center"><i
+                  class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+              <a class="more rounded-full pointer flex justify-center align-center"><i
+                  class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
+            </div>
+          </div>
+
+          <div class="card__wrapper box-shadow flex flex-col m-8 bg--main-white ">
+            <div class="card__header flex flex-col relative">
+              <img class="card__image--tall pointer"
+                src="https://m.media-amazon.com/images/I/51e1LrMnhoL._AC_UY445_.jpg" alt="" />
+              <div class="card__over-img--tag  bg-yellow-400 flex justify-center align-center rounded-m">
+                <p class="card__sub__heading txt-2xl bold txt-main-black">Best Seller</p>
+              </div>
+              <div class="card__headings">
+                <p class="txt-4xl txt-gray-100">Mens Hoodie</p>
+                <p class="txt-2xl txt-gray-400">Nike</p>
+              </div>
+
+            </div>
+
+            <div class="card__footer  m-1 flex align-center ">
+              <p class="txt-2xl bold txt-gray-100 m-2">₹2500</p>
+              <p class="txt-2xl bold m-0 txt-gray-400 line-through">₹5000</p>
+              <p class="txt-2xl bold m-2 txt-green-500">(50% Off)</p>
+              <i class="liked material-icons pointer txt-main-white">favorite_border</i>
+            </div>
+            <div class="card__links p-2 align-center flex">
+              <button
+                class="button  p-4 txt-2xl width-full txt-bold bg--primary rounded-m flex justify-center align-center">Buy
+                Now</button>
+            </div>
+            <div class="card__links p-2 align-center flex">
+              <button
+                class="button  p-4 txt-2xl width-full txt-bold border--primary b-2 border-solid txt--primary bg-none rounded-m flex justify-center align-center"><i
+                  class="button__icon material-icons">shopping_cart</i>Add to cart</button>
+            </div>
+
+            <div class="card__icons flex justify-center align-center hidden">
+              <a class="heart pointer flex justify-center align-center "><i
+                  class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+              <a class="share pointer flex justify-center align-center"><i
+                  class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+              <a class="more pointer flex justify-center align-center"><i
+                  class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
+            </div>
+          </div>
+        </div>
+       <pre><code data-language="html" >
+  <div class="card__wrapper box-shadow flex flex-col m-8 bg--main-white card__shadow">
+  <div class="card__header flex flex-col relative">
+  <img class="card__image--tall pointer"src=""alt=""/>
+
+   use below div for tags using the class card__over-img--tag
+  <div class="card__over-img--tag p-2 m-2 bg--secondary flex justify-center align-center rounded-m">
+  <p class="card__sub__heading txt-2xl bold txt-main-black">Best Seller</p>
+  </div>
+  <div class="card__headings">
+  <p class="txt-4xl txt-gray-100">Mens Hoodie</p>
+  <p class="txt-2xl txt-gray-400">Nike</p>
+  </div>
+  </div>
+        
+  <div class="card__footer  m-1 flex align-center ">
+  <p class="txt-2xl bold txt-gray-100 m-2">₹2500</p>
+  <p class="txt-2xl bold m-0 txt-gray-400 line-through">₹5000</p>
+  <p class="txt-2xl bold m-2 txt-green-500">(50% Off)</p>
+  <i class="liked material-icons pointer txt-main-white">favorite_border</i>
+  </div>
+  <div class="card__links p-2 align-center flex">
+  <button class="button  p-4 txt-2xl width-full txt-bold bg--primary rounded-m flex justify-center align-center">Buy Now</button>
+  </div>
+  <div class="card__links p-2 align-center flex">
+  <button class="button  p-4 txt-2xl width-full txt-bold border--primary b-2 border-solid txt--primary bg-none rounded-m flex justify-center align-center"><i class="button__icon material-icons">shopping_cart</i>Add to cart</button>
+  </div>
+          
+  <div class="card__icons flex justify-center align-center hidden">
+  <a class="heart pointer flex justify-center align-center "><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+  <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+  <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
+  </div>
+  </div>
+
+</code></pre>
+       
+        <div class="documentation__subheading h4 p-4 txt-main-white">Shopping Card Horizontal</div>
+        <div class="component__container card__container">
+          <div class="card__wrapper--horizontal box-shadow flex flex-col m-8 bg--main-black">
+            <div class="card__header--row flex flex-col relative">
+              <img class="card__image--horizontal pointer"
+                src="https://m.media-amazon.com/images/I/51e1LrMnhoL._AC_UY445_.jpg" alt="" />
+
+              <div class="card__headings--horizontal p-4">
+                <p class="txt-2xl txt-gray-800">Mens Hoodie</p>
+                <p class="txt-2xl txt-gray-500">Nike</p>
+                <div class="card__footer flex align-center ">
+                  <p class="txt-2xl bold  txt-gray-800 ">₹2500</p>
+                  <p class="txt-2xl bold m-2 txt-gray-400 line-through">₹5000</p>
+                  <p class="txt-2xl bold m-2 txt-green-500">(50% Off)</p>
+                </div>
+                <div class="card__footer flex align-center ">
+                  <p
+                    class="add txt-2xl bold m-2 txt-gray-800  rounded-full flex justify-center align-center bg-gray-200 pointer">
+                    -</p>
+                  <p class="quantity txt-2xl bold  txt-gray-800 p-4 rounded-s ">1</p>
+                  <p
+                    class="subtract txt-2xl bold m-2 txt-green-800  rounded-full flex justify-center align-center bg-gray-200 pointer">
+                    +</p>
+                </div>
+              </div>
+              <p class="card__content txt-l bold txt-gray-400 p-4 hidden">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+            </div>
+            <div class="card__footer--horizontal flex align-center">
+              <div class="card__links p-2 align-center flex">
+                <div class="width-half m-2"><button
+                    class="button width-full b-2 border-gray-400 border-solid p-4 txt-xl txt-bold txt-main-black rounded-m flex justify-center align-center">Remove</button>
+                </div>
+                <div class="width-half m-2"><button
+                    class="button width-full  b-2 border-gray-400 border-solid p-4 txt-xl txt-bold txt-dark-blue-500 rounded-m flex justify-center align-center">Move
+                    to Wishlist</button>
+                </div>
+              </div>
+              <div class="card__icons flex justify-center align-center hidden">
+                <a class="heart pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+                <a class="share pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+                <a class="more pointer flex justify-center align-center"><i
+                    class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+ <pre><code data-language="html" >
+ <div class="card__wrapper box-shadow--horizontal card__shadow flex flex-col m-8 bg--main-black">
+ <div class="card__header--row flex flex-col relative">
+ <img class="" alt=""/>
+        
+ <div class="card__headings--horizontal p-4">
+ <p class="txt-2xl txt-gray-800">Mens Hoodie</p>
+ <p class="txt-2xl txt-gray-500">Nike</p></div>
+ <div class="card__footer flex align-center ">
+ <p class="txt-2xl bold  txt-gray-800 ">₹2500</p>
+ <p class="txt-2xl bold m-2 txt-gray-400 line-through">₹5000</p>
+ <p class="txt-2xl bold m-2 txt-green-500">(50% Off)</p>
  </div>
-<div class="h4 p-4 txt-main-white">Shopping Cards Vertical</div>
-<div class="card__container"></div>
-    <div class="card__container"></div>
-    <div class="card__wrapper box-shadow flex flex-col m-8 bg--main-white ">
-      <div class="card__header flex flex-col relative">
-        <img
-          class="card__image--tall pointer"
-          src="https://m.media-amazon.com/images/I/51e1LrMnhoL._AC_UY445_.jpg"
-          alt=""
-        />
-        
-          <div class="card__headings">
-            <p class="txt-4xl txt-gray-100">Mens Hoodie</p>
-            <p class="txt-2xl txt-gray-400">Nike</p>
-          </div>
-        
-      </div>
-      
-      <div class="card__footer  m-1 flex align-center ">
-      <p class="txt-2xl bold txt-gray-100 m-2">₹2500</p>
-      <p class="txt-2xl bold m-0 txt-gray-400 line-through">₹5000</p>
-      <p class="txt-2xl bold m-2 txt-green-500">(50% Off)</p>
-      <i class="liked material-icons pointer txt-main-white">favorite_border</i>
-      </div>
-        <div class="card__links p-2 align-center flex">
-          <button class="button  p-4 txt-2xl width-full txt-bold bg--primary rounded-m flex justify-center align-center">Buy Now</button>
-        </div>
-        <div class="card__links p-2 align-center flex">
-          <button class="button  p-4 txt-2xl width-full txt-bold border--primary b-2 border-solid txt--primary bg-none rounded-m flex justify-center align-center"><i class="button__icon material-icons">shopping_cart</i>Add to cart</button>
-        </div>
-        
-        <div class="card__icons flex justify-center align-center hidden">
-          <a class="heart rounded-full pointer flex justify-center align-center "><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
-          <a class="share rounded-full pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
-          <a class="more rounded-full pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
-        </div>
-      </div>
-      
-      <div class="card__wrapper box-shadow flex flex-col m-8 bg--main-white ">
-      <div class="card__header flex flex-col relative">
-        <img
-          class="card__image--tall pointer"
-          src="https://m.media-amazon.com/images/I/51e1LrMnhoL._AC_UY445_.jpg"
-          alt=""
-        />
-          <div class="card__over-img--tag p-2 m-2 bg--secondary flex justify-center align-center rounded-m">
-            <p class="card__sub__heading txt-2xl bold txt-main-black">Best Seller</p>
-          </div>
-          <div class="card__headings">
-            <p class="txt-4xl txt-gray-100">Mens Hoodie</p>
-            <p class="txt-2xl txt-gray-400">Nike</p>
-          </div>
-        
-      </div>
-      
-      <div class="card__footer  m-1 flex align-center ">
-      <p class="txt-2xl bold txt-gray-100 m-2">₹2500</p>
-      <p class="txt-2xl bold m-0 txt-gray-400 line-through">₹5000</p>
-      <p class="txt-2xl bold m-2 txt-green-500">(50% Off)</p>
-      <i class="liked material-icons pointer txt-main-white">favorite_border</i>
-      </div>
-        <div class="card__links p-2 align-center flex">
-          <button class="button  p-4 txt-2xl width-full txt-bold bg--primary rounded-m flex justify-center align-center">Buy Now</button>
-        </div>
-        <div class="card__links p-2 align-center flex">
-          <button class="button  p-4 txt-2xl width-full txt-bold border--primary b-2 border-solid txt--primary bg-none rounded-m flex justify-center align-center"><i class="button__icon material-icons">shopping_cart</i>Add to cart</button>
-        </div>
-        
-        <div class="card__icons flex justify-center align-center hidden">
-          <a class="heart pointer flex justify-center align-center "><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
-          <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
-          <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
-        </div>
-      </div>
-     <div class="iframe__container">
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%250A%250A%253Cdiv%2520class%253D%2522card__wrapper box-shadow%2520flex%2520flex-col%2520m-8%2520bg--main-white%2520card__shadow%2522%253E%250A%253Cdiv%2520class%253D%2522card__header%2520flex%2520flex-col%2520relative%2522%253E%250A%253Cimg%2520class%253D%2522card__image--tall%2520pointer%2522src%253D%2522%2522alt%253D%2522%2522%252F%253E%250A%250A%252F*%2520use%2520below%2520div%2520for%2520tags%2520using%2520the%2520class%2520card__over-img--tag*%252F%250A%250A%253Cdiv%2520class%253D%2522card__over-img--tag%2520p-2%2520m-2%2520bg--secondary%2520flex%2520justify-center%2520align-center%2520rounded-m%2522%253E%250A%253Cp%2520class%253D%2522card__sub__heading%2520txt-2xl%2520bold%2520txt-main-black%2522%253EBest%2520Seller%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card__headings%2522%253E%250A%253Cp%2520class%253D%2522txt-4xl%2520txt-gray-100%2522%253EMens%2520Hoodie%253C%252Fp%253E%250A%253Cp%2520class%253D%2522txt-2xl%2520txt-gray-400%2522%253ENike%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522card__footer%2520%2520m-1%2520flex%2520align-center%2520%2522%253E%250A%253Cp%2520class%253D%2522txt-2xl%2520bold%2520txt-gray-100%2520m-2%2522%253E%25E2%2582%25B92500%253C%252Fp%253E%250A%253Cp%2520class%253D%2522txt-2xl%2520bold%2520m-0%2520txt-gray-400%2520line-through%2522%253E%25E2%2582%25B95000%253C%252Fp%253E%250A%253Cp%2520class%253D%2522txt-2xl%2520bold%2520m-2%2520txt-green-500%2522%253E%2850%2525%2520Off%29%253C%252Fp%253E%250A%253Ci%2520class%253D%2522liked%2520material-icons%2520pointer%2520txt-main-white%2522%253Efavorite_border%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card__links%2520p-2%2520align-center%2520flex%2522%253E%250A%253Cbutton%2520class%253D%2522button%2520%2520p-4%2520txt-2xl%2520width-full%2520txt-bold%2520bg--primary%2520rounded-m%2520flex%2520justify-center%2520align-center%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card__links%2520p-2%2520align-center%2520flex%2522%253E%250A%253Cbutton%2520class%253D%2522button%2520%2520p-4%2520txt-2xl%2520width-full%2520txt-bold%2520border--primary%2520b-2%2520border-solid%2520txt--primary%2520bg-none%2520rounded-m%2520flex%2520justify-center%2520align-center%2522%253E%253Ci%2520class%253D%2522button__icon%2520material-icons%2522%253Eshopping_cart%253C%252Fi%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522card__icons%2520flex%2520justify-center%2520align-center%2520hidden%2522%253E%250A%253Ca%2520class%253D%2522heart%2520pointer%2520flex%2520justify-center%2520align-center%2520%2522%253E%253Ci%2520class%253D%2522sidebar__icon%2520material-icons%2520txt-l%2520txt-main-white%2522%253Efavorite_border%253C%252Fi%253E%253C%252Fa%253E%250A%253Ca%2520class%253D%2522share%2520pointer%2520flex%2520justify-center%2520align-center%2522%253E%253Ci%2520class%253D%2522sidebar__icon%2520material-icons%2520txt-l%2520txt-gray-200%2522%253Eshare%253C%252Fi%253E%253C%252Fa%253E%250A%253Ca%2520class%253D%2522more%2520pointer%2520flex%2520justify-center%2520align-center%2522%253E%253Ci%2520class%253D%2522sidebar__icon%2520material-icons%2520%2520txt-l%2520txt-gray-200%2522%253Emore_vert%253C%252Fi%253E%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-        </div>
-     <div class="h4 p-4 txt-main-white">Shopping Card Horizontal</div>
-      <div class="card__wrapper--horizontal box-shadow flex flex-col m-8 bg--main-black">
-        <div class="card__header--row flex flex-col relative">
-        <img
-          class="card__image--horizontal pointer"
-          src="https://m.media-amazon.com/images/I/51e1LrMnhoL._AC_UY445_.jpg"
-          alt=""
-        />
-        
-           <div class="card__headings--horizontal p-4">
-            <p class="txt-2xl txt-gray-800">Mens Hoodie</p>
-            <p class="txt-2xl txt-gray-500">Nike</p>
-            <div class="card__footer flex align-center ">
-            <p class="txt-2xl bold  txt-gray-800 ">₹2500</p>
-            <p class="txt-2xl bold m-2 txt-gray-400 line-through">₹5000</p>
-            <p class="txt-2xl bold m-2 txt-green-500">(50% Off)</p>
-            </div>
-            <div class="card__footer flex align-center ">
-            <p class="add txt-2xl bold m-2 txt-gray-800  rounded-full flex justify-center align-center bg-gray-200 pointer">-</p>
-            <p class="quantity txt-2xl bold  txt-gray-800 p-4 rounded-s ">1</p>
-            <p class="subtract txt-2xl bold m-2 txt-green-800  rounded-full flex justify-center align-center bg-gray-200 pointer">+</p>
-            </div>
-          </div>
-          <p class="card__content txt-l bold txt-gray-400 p-4 hidden">
-            Visit ten places on our planet that are undergoing the biggest
-            changes today.
-          </p>
-        </div>
-        <div class="card__footer--horizontal flex align-center">
-        <div class="card__links p-2 align-center flex">
-          <div class="width-half m-2"><button class="button width-full b-2 border-gray-400 border-solid p-4 txt-xl txt-bold txt-main-black rounded-m flex justify-center align-center">Remove</button></div>
-          <div class="width-half m-2"><button class="button width-full  b-2 border-gray-400 border-solid p-4 txt-xl txt-bold txt-dark-blue-500 rounded-m flex justify-center align-center">Move to Wishlist</button>
-        </div>
-         </div>
-        <div class="card__icons flex justify-center align-center hidden">
-          <a class="heart pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
-          <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
-          <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
-        </div>
-      </div>
-      
-    </div>
-    <div class="iframe__container">
-    <iframe
-      src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card__wrapper box-shadow--horizontal%2520card__shadow%2520flex%2520flex-col%2520m-8%2520bg--main-black%2522%253E%250A%253Cdiv%2520class%253D%2522card__header--row%2520flex%2520flex-col%2520relative%2522%253E%250A%253Cimg%250Aclass%253D%2522%2522%250Aalt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522card__headings--horizontal%2520p-4%2522%253E%250A%253Cp%2520class%253D%2522txt-2xl%2520txt-gray-800%2522%253EMens%2520Hoodie%253C%252Fp%253E%250A%253Cp%2520class%253D%2522txt-2xl%2520txt-gray-500%2522%253ENike%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522card__footer%2520flex%2520align-center%2520%2522%253E%250A%253Cp%2520class%253D%2522txt-2xl%2520bold%2520%2520txt-gray-800%2520%2522%253E%25E2%2582%25B92500%253C%252Fp%253E%250A%253Cp%2520class%253D%2522txt-2xl%2520bold%2520m-2%2520txt-gray-400%2520line-through%2522%253E%25E2%2582%25B95000%253C%252Fp%253E%250A%253Cp%2520class%253D%2522txt-2xl%2520bold%2520m-2%2520txt-green-500%2522%253E%2850%2525%2520Off%29%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card__footer%2520flex%2520align-center%2520%2522%253E%250A%253Cp%2520class%253D%2522add%2520txt-2xl%2520bold%2520m-2%2520txt-gray-800%2520%2520rounded-full%2520flex%2520justify-center%2520align-center%2520bg-gray-200%2520pointer%2522%253E-%253C%252Fp%253E%250A%253Cp%2520class%253D%2522quantity%2520txt-2xl%2520bold%2520%2520txt-gray-800%2520p-4%2520rounded-s%2520%2522%253E1%253C%252Fp%253E%250A%253Cp%2520class%253D%2522subtract%2520txt-2xl%2520bold%2520m-2%2520txt-green-800%2520%2520rounded-full%2520flex%2520justify-center%2520align-center%2520bg-gray-200%2520pointer%2522%253E%252B%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cp%2520class%253D%2522card__content%2520txt-l%2520bold%2520txt-gray-400%2520p-4%2520hidden%2522%253E%250AVisit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250Achanges%2520today.%250A%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card__footer--horizontal%2520flex%2520align-center%2522%253E%250A%253Cdiv%2520class%253D%2522card__links%2520p-2%2520align-center%2520flex%2522%253E%250A%253Cdiv%2520class%253D%2522width-half%2520m-2%2522%253E%253Cbutton%2520class%253D%2522button%2520width-full%2520b-2%2520border-gray-400%2520border-solid%2520p-4%2520txt-xl%2520txt-bold%2520txt-main-black%2520rounded-m%2520flex%2520justify-center%2520align-center%2522%253ERemove%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522width-half%2520m-2%2522%253E%253Cbutton%2520class%253D%2522button%2520width-full%2520%2520b-2%2520border-gray-400%2520border-solid%2520p-4%2520txt-xl%2520txt-bold%2520txt-dark-blue-500%2520rounded-m%2520flex%2520justify-center%2520align-center%2522%253EMove%2520to%2520Wishlist%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card__icons%2520flex%2520justify-center%2520align-center%2520hidden%2522%253E%250A%253Ca%2520class%253D%2522heart%2520pointer%2520flex%2520justify-center%2520align-center%2522%253E%253Ci%2520class%253D%2522sidebar__icon%2520material-icons%2520txt-l%2520txt-main-white%2522%253Efavorite_border%253C%252Fi%253E%253C%252Fa%253E%250A%253Ca%2520class%253D%2522share%2520pointer%2520flex%2520justify-center%2520align-center%2522%253E%253Ci%2520class%253D%2522sidebar__icon%2520material-icons%2520txt-l%2520txt-gray-200%2522%253Eshare%253C%252Fi%253E%253C%252Fa%253E%250A%253Ca%2520class%253D%2522more%2520pointer%2520flex%2520justify-center%2520align-center%2522%253E%253Ci%2520class%253D%2522sidebar__icon%2520material-icons%2520%2520txt-l%2520txt-gray-200%2522%253Emore_vert%253C%252Fi%253E%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-      sandbox="allow-scripts allow-same-origin">
-    </iframe>
+ <div class="card__footer flex align-center ">
+ <p class="add txt-2xl bold m-2 txt-gray-800  rounded-full flex justify-center align-center bg-gray-200 pointer">-</p>
+ <p class="quantity txt-2xl bold  txt-gray-800 p-4 rounded-s ">1</p>
+ <p class="subtract txt-2xl bold m-2 txt-green-800  rounded-full flex justify-center align-center bg-gray-200 pointer">+</p>
+ </div>
+ </div>
+ <p class="card__content txt-l bold txt-gray-400 p-4 hidden">
+ Visit ten places on our planet that are undergoing the biggest
+ changes today.
+ </p>
+ </div>
+ <div class="card__footer--horizontal flex align-center">
+ <div class="card__links p-2 align-center flex">
+ <div class="width-half m-2"><button class="button width-full b-2 border-gray-400 border-solid p-4 txt-xl txt-bold txt-main-black rounded-m flex justify-center align-center">Remove</button></div>
+ <div class="width-half m-2"><button class="button width-full  b-2 border-gray-400 border-solid p-4 txt-xl txt-bold txt-dark-blue-500 rounded-m flex justify-center align-center">Move to Wishlist</button>
+ </div>
+ </div>
+ <div class="card__icons flex justify-center align-center hidden">
+ <a class="heart pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-main-white">favorite_border</i></a>
+ <a class="share pointer flex justify-center align-center"><i class="sidebar__icon material-icons txt-l txt-gray-200">share</i></a>
+ <a class="more pointer flex justify-center align-center"><i class="sidebar__icon material-icons  txt-l txt-gray-200">more_vert</i></a>
+ </div>
+ </div>
+ </code></pre>
+ </div>
+
+
     </div>
     </div>
-      
-      
-    </div>
-    </div>
-    </main>
-    
-    <script src="../../script.js"></script>
-  </body>
+  </main>
+ <script src="/assets/js/rainbow.js"></script>
+  <script src="/assets/js/language/generic.js"></script>
+  <script src="/assets/js/language/html.js"></script>
+  <script src="../../script.js"></script>
+</body>
+
 </html>

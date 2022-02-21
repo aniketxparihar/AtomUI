@@ -9,17 +9,20 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+  <script src="/assets/js/rainbow-cusom.min.js"></script>
+  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <title>AtomUI</title>
   </head>
-  <body>
+  <body onload="sh_highlightDocument();">
     <div id="navbar">
       <i id="navbar__icon" class="material-icons">menu</i>
     </div>
     <main>
       <div class="main__grid">
   <div id="sidebar">
-      <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">AtomUI</a></h1>
+      <h1 id="sidebar__heading" class="txt-bold"><a href="../../home/index.html">AtomUI</a></h1>
 
       <div id="sidebar__links">
         <a href="../../documentation.html" id="sidebar__link" tabindex="1">
@@ -109,26 +112,33 @@ chevron_right
        <p id="documentation__brief">
         Use these ratings component for getting customer feedbacks.
         </p>
-        <div class="h4 p-4 txt-main-white">Hover Rating</div>
-      <div class="rating flex flex-row-reverse m-8">
+        <div class="documentation__subheading h4 p-4 txt-main-white">Hover Rating</div>
+        <div class="component__container">
+          <div class="rating flex flex-row-reverse m-8">
         <input type="radio" name="star" id="star1"><label class="h1" for="star1"></label>
         <input type="radio" name="star" id="star2"><label class="h1" for="star2"></label>
         <input type="radio" name="star" id="star3"><label class="h1" for="star3"></label>
         <input type="radio" name="star" id="star4"><label class="h1" for="star4"></label>
         <input type="radio" name="star" id="star5"><label class="h1" for="star5"></label>
       </div>
-
-      <div class="iframe__container">
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2520flex%2520flex-row-reverse%2522%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522star%2522%2520id%253D%2522star1%2522%253E%253Clabel%2520class%253D%2522h1%2522%2520for%253D%2522star1%2522%253E%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522star%2522%2520id%253D%2522star2%2522%253E%253Clabel%2520class%253D%2522h1%2522%2520for%253D%2522star2%2522%253E%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522star%2522%2520id%253D%2522star3%2522%253E%253Clabel%2520class%253D%2522h1%2522%2520for%253D%2522star3%2522%253E%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522star%2522%2520id%253D%2522star4%2522%253E%253Clabel%2520class%253D%2522h1%2522%2520for%253D%2522star4%2522%253E%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522star%2522%2520id%253D%2522star5%2522%253E%253Clabel%2520class%253D%2522h1%2522%2520for%253D%2522star5%2522%253E%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-</div> <p id="documentation__brief">
-        pre defined text sizes for more readability.
-        </p>
+        </div>
+      
+      <pre><code data-language="html" >
+  <div class="rating flex flex-row-reverse">
+    <input type="radio" name="star" id="star1"><label class="h1" for="star1"></label>
+    <input type="radio" name="star" id="star2"><label class="h1" for="star2"></label>
+    <input type="radio" name="star" id="star3"><label class="h1" for="star3"></label>
+    <input type="radio" name="star" id="star4"><label class="h1" for="star4"></label>
+    <input type="radio" name="star" id="star5"><label class="h1" for="star5"></label>
+  </div>
+        </code></pre>
+      
     </div>
     </div>
     </main>
+    <script src="/assets/js/rainbow.js"></script>
+  <script src="/assets/js/language/generic.js"></script>
+  <script src="/assets/js/language/html.js"></script>
     <script src="https://use.fontawesome.com/8cdd008a2c.js"></script>
     <script src="../../script.js"></script>
     </script>

@@ -13,17 +13,20 @@
   <link rel="stylesheet" href="/path/to/styles/default.min.css">
   <link rel="stylesheet" href="/style.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+  <script src="/assets/js/rainbow-cusom.min.js"></script>
+
   <title>AtomUI</title>
 </head>
 
-<body>
+<body onload="sh_highlightDocument();">
   <div id="navbar">
     <i id="navbar__icon" class="material-icons">menu</i>
   </div>
   <main>
     <div class="main__grid">
       <aside id="sidebar">
-        <h1 id="sidebar__heading" class="txt-bold"><a href="index.html">AtomUI</a></h1>
+        <h1 id="sidebar__heading" class="txt-bold"><a href="./home/index.html">AtomUI</a></h1>
 
         <div id="sidebar__links">
           <a href="./documentation.html" id="sidebar__link" tabindex="1">
@@ -109,28 +112,36 @@
         </div>
       </aside>
       <div id="documentation">
-        <h1 id="documentation__heading" > Documentation</h1>
-        <div class="h4 p-4 txt-main-white">Introduction</div>
+        <h1 id="documentation__heading"> Documentation</h1>
+        <div class="documentation__subheading h4 p-4 txt-main-white">Introduction</div>
         <div id="documentation__brief" class="txt-gray-500">
-          Atom allows you to design and build smooth web apps by dividing the whole UI into atom sized components and classes.
+          Atom allows you to design and build smooth web apps by dividing the whole UI into atom sized customisable components and
+          classes.
           Use atom as the building block of your Project.
         </div>
-        <div class="h4 p-4 txt-main-white">Quick Installation</div>
+        <div class="documentation__subheading h4 p-4 txt-main-white">Quick Installation</div>
         <div id="documentation__brief" class="txt-gray-500">
-          In order to introduce Atom to your project, Copy the Link given below and paste it in the <head> tag of your html, above all other style sheets.
+          In order to introduce Atom to your project, Copy the Link given below and paste it in the
+
+          <head> tag of your html, above all other style sheets.
         </div>
-        <iframe
-        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fatomui.netlify.app%252Fcss%252Fcomponents.css%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
-        sandbox="allow-scripts allow-same-origin">
-        </iframe>
+        <div class="documentation__subheading h4 p-4 txt-main-white">Copy Stylesheet</div>
+        <pre><code data-language="html" >
+ <link rel="stylesheet" href="https://atomui.netlify.app/css/component.css">
+        </code></pre>
+        <div class="documentation__subheading h4 p-4 txt-main-white">Copy Javascript</div>
+        <pre><code data-language="html" >
+ <script src="https://atomui.netlify.app/script.js"></script>
+        </code></pre>
         <div id="documentation__brief">
           <span id="documentation__span" class="txt--primary">Happy Building :)</span>
         </div>
 
-        
-         <div class="h4 p-4 txt-main-white">Color Pallete and Color Utilities</div>
 
-        <div id="color__grid" class="box-shadow">
+        <div class="documentation__subheading h4 p-4 txt-main-white">Color Pallete and Color Utilities</div>
+
+        <div class="component__container ">
+          <div id="color__grid" class="box-shadow">
           <div class="color__box flex justify-center align-center bg-main-black txt-main-white">main-black</div>
           <div class="color__box flex justify-center align-center bg-main-white">main-white</div>
           <div class="color__box flex justify-center align-center bg--success">success</div>
@@ -139,7 +150,7 @@
           <div class="color__box flex justify-center align-center bg--info txt-main-white">info</div>
           <div class="color__box flex justify-center align-center bg--primary">primary</div>
           <div class="color__box flex justify-center align-center bg--secondary">secondary</div>
-          <div class="color__box flex justify-center align-center bg--cta">cta</div>
+          <div class="color__box flex justify-center align-center "></div>
           <div class="color__box flex justify-center align-center bg-gray-50">gray-50</div>
           <div class="color__box flex justify-center align-center bg-gray-100">gray-3100</div>
           <div class="color__box flex justify-center align-center bg-gray-200">gray-200</div>
@@ -216,14 +227,117 @@
 
 
         </div>
-        <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%2520%2520%2520%252F*%2520use%2520bg-%2520or%2520txt-%2520along%2520with%2520color%2520name%2520to%2520get%2520the%2520desired%2520result.%250AFor%2520pre%2520defined%2520colors%2520use%2520bg--%2520or%2520txt--%2520for%2520desired%2520results%2520*%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+        </div>
         
+        <pre><code data-language="html" >
+ <!-- use bg- or txt- along with color name to get the desired result.
+  For pre defined colors use bg-- or txt-- for desired results -->
+        </code></pre>
+        <div class="documentation__subheading h4 p-4 txt-main-white">Other Class Utilities</div>
+        <pre><code data-language="html">
+          <!-- Font Styles -->
+          font-mono 
+          font-roboto 
+          font-sans 
+
+          <!-- text-weight  -->
+          txt-bold
+          <!-- text-decoration  -->
+          line-through
+
+          <!-- font-sizes  -->
+          txt-s 
+          txt-m 
+          txt-l 
+          txt-xl 
+          txt-2xl 
+          txt-3xl 
+          txt-4xl 
+
+           <!-- display  -->
+          block
+          none
+
+          <!-- position  -->
+          absolute
+          relative
+          fixed
+          sticky
+
+          <!-- paddings  -->
+          p-0 
+          p-1 
+          p-2 
+          p-3 
+          p-4 
+          p-5 
+          p-6 
+          p-7 
+          p-8 
+
+          <!-- margins  -->
+          m-0 
+          m-1 
+          m-2 
+          m-3 
+          m-4 
+          m-5 
+          m-6 
+          m-7 
+          m-8 
+
+          <!-- border  -->
+          b-0 
+          b-1 
+          b-2 
+          b-3 
+          b-4 
+          b-5 
+
+
+          border-solid
+          border-dotted
+
+          <!-- border radius  -->
+          rounded-none
+          rounded-s 
+          rounded 
+          rounded-m 
+          rounded-l 
+          rounded-xl 
+          rounded-2xl 
+          rounded-full 
+
+
+           <!-- flex properties  -->
+          flex
+
+          justify-center
+          justify-start
+          justify-end
+
+          align-center
+          align-start
+          align-end
+
+          flex-row
+          flex-row-reverse
+          flex-col
+          flex-col-reverse
+
+          wrap
+
+          pointer
+
+          width-half
+          width-full
+        </code></pre>
       </div>
     </div>
   </main>
+ <script src="/assets/js/rainbow.js"></script>
+<script src="/assets/js/language/generic.js"></script>
+<script src="/assets/js/language/html.js"></script>
   <script src="script.js"></script>
 </body>
 

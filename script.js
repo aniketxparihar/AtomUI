@@ -6,10 +6,18 @@ const removeModal = document.querySelector(".remove__modal");
 const slider = document.querySelector("#slider");
 const sliderValue = document.querySelector("#slider__value");
 const togglebutton = document.querySelector(".toggle__button");
+const hamburgerButton = document.querySelector(".hamburger");
+const drawer = document.querySelector(".drawer");
+let hamburgerToggle = false;
 let toggle = true;
-let visible = false;
 let open = false;
+const modalOpen = () => {
+    modalScreen.style.display = "block"
+}
 
+const modalClose = () => {
+    modalScreen.style.display = "none";
+}
 const badgeToggle = () => {
     toggle = !toggle;
     if (toggle == true) {
@@ -22,7 +30,6 @@ const badgeToggle = () => {
 
 hamburger.addEventListener("click", (e) => {
     e.preventDefault();
-    console.log(open)
     if (open == false) {
         sidebar.style.left = "0rem";
 
@@ -33,21 +40,11 @@ hamburger.addEventListener("click", (e) => {
     }
     open = !open;
 })
-
-const modalOpen = () => {
-    visible = !visible;
-    console.log("Hi");
-    if (visible === true) {
-        modalScreen.style.display = "block";
-    }
-}
-
-const modalClose = () => {
-    visible = !visible;
-    if (visible === false) {
-        modalScreen.style.display = "none";
-    }
-}
+hamburgerButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (hamburgerToggle===false) { drawer.style.right = "0rem"; hamburgerToggle = !hamburgerToggle;console.log(hamburgerToggle)}
+    else  { drawer.style.right = "-100rem"; hamburgerToggle = !hamburgerToggle; console.log(hamburgerToggle) }
+})
 
 sliderValue.innerHTML = slider.value;
 function changeValue() {

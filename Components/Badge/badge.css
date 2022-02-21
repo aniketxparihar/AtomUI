@@ -53,8 +53,7 @@
 
 
 .txt__badge{
- padding-left:1.5rem;
- padding-right:1.5rem;
+ padding:0rem 3rem;
  display: flex;
  justify-content: center;
  align-items: center;

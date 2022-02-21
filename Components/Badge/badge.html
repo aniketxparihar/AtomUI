@@ -6,215 +6,250 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../../style.css" />
+  <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+  <script src="/assets/js/rainbow-cusom.min.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <title>AtomUI</title>
 </head>
 
-<body>
+<body onload="sh_highlightDocument();">
   <div id="navbar">
     <i id="navbar__icon" class="material-icons">menu</i>
   </div>
   <main>
     <div class="main__grid">
-    <div id="sidebar">
-      <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">AtomUI</a></h1>
+      <div id="sidebar">
+        <h1 id="sidebar__heading" class="txt-bold"><a href="../../home/index.html">AtomUI</a></h1>
 
-      <div id="sidebar__links">
-        <a href="../../documentation.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i>Docs.</div>
-        </a>
-        <a href="../Avatar/avatar.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i>Avatar</div>
-        </a>
-        <a href="../Alert/alert.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i>Alert</div>
-        </a>
-        <a href="../Badge/badge.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i>Badge</div>
-        </a>
-        <a href="../Button/button.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i>Button</div>
-        </a>
-        <a href="../Card/card.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i>Card</div>
-        </a>
-        <a href="../Image_/image.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i>Image</div>
-        </a>
-        <a href="../Input/input.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i>Input</div>
-        </a>
-        <a href="../List/list.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i>Lists</div>
-        </a>
-        <a href="../Modal/modal.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i>Modal</div>
-        </a>
-        <a href="../Navigation/navigation.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i>Navigation</div>
-        </a>
-        <a href="../Rating/rating.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i> Rating</div>
-        </a>
-        <a href="../Grid/grid.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i> Grid</div>
-        </a>
-        <a href="../Slider/slider.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i> Slider</div>
-        </a>
-        <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i> snackbar</div>
-        </a>
-        <a href="../Text/text.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-              chevron_right
-            </i>Text</div>
-        </a>
+        <div id="sidebar__links">
+          <a href="../../documentation.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Docs.</div>
+          </a>
+          <a href="../Avatar/avatar.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Avatar</div>
+          </a>
+          <a href="../Alert/alert.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Alert</div>
+          </a>
+          <a href="../Badge/badge.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Badge</div>
+          </a>
+          <a href="../Button/button.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Button</div>
+          </a>
+          <a href="../Card/card.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Card</div>
+          </a>
+          <a href="../Image_/image.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Image</div>
+          </a>
+          <a href="../Input/input.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Input</div>
+          </a>
+          <a href="../List/list.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Lists</div>
+          </a>
+          <a href="../Modal/modal.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Modal</div>
+          </a>
+          <a href="../Navigation/navigation.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Navigation</div>
+          </a>
+          <a href="../Rating/rating.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i> Rating</div>
+          </a>
+          <a href="../Grid/grid.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i> Grid</div>
+          </a>
+          <a href="../Slider/slider.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i> Slider</div>
+          </a>
+          <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i> snackbar</div>
+          </a>
+          <a href="../Text/text.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Text</div>
+          </a>
+        </div>
       </div>
-    </div>
-   <div id="documentation">
-      
+      <div id="documentation">
+
         <h1 id="documentation__heading"> Badges</h1>
         <p id="documentation__brief">
-         Documentation and examples for badges, our small count and labeling component.
+          Documentation and examples for badges, our small count and labeling component.
         </p>
-      <div class="h4 p-4 txt-main-white">Avatar Badges</div>
-      
-      <div class="avatar__badge__container ">
-        <div class="avatar__wrapper relative rounded-full  flex justify-center align-center">
-          <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
-            class="avatar--medium rounded-full box-shadow" />
-          <div class="badge--small badge__position--medium bg--success rounded-full absolute"></div>
-        </div>
+        <div class="documentation__subheading h4 p-4 txt-main-white">Avatar Badges</div>
 
-        <div class="avatar__wrapper relative rounded-full  flex justify-center align-center">
-          <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
-            class="avatar--medium rounded-full box-shadow" />
-          <div class="badge--small badge__position--medium bg-gray-300 rounded-full absolute"></div>
-        </div>
-
-        <div class="avatar__wrapper relative rounded-full  flex justify-center align-center">
-          <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
-            class="avatar--medium rounded-full box-shadow" />
-          <div class="badge--small badge__position--medium bg--danger rounded-full absolute"></div>
-        </div>
-      </div>
-     <div class="iframe__container">
-          <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%252F*%2520Avatar%2520Badge%2520*%252F%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520relative%2520rounded-full%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--medium%2520rounded-full%2520box-shadow%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522badge--small%2520badge__position--medium%2520bg--success%2520rounded-full%2520absolute%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%252F*%2520use%2520avatar--small%252Cavatar--medium%252Cavatar--large%252Cavatar--extra-large%2520for%2520Avatar%2520Sizes%2520*%252F%250A%250A%252F*%2520Use%2520badge__position--small%252C%2520badge__position--medium%252Cbadge__position--large%2520and%2520badge__position--extra-large%2520in%2520accordance%2520with%2520the%2520Avatar%2520Sizes%2520to%2520get%2520the%2520desired%2520result.%2520*%252F%250A%250A%252F*%2520for%2520color%2520of%2520badge%2520use%2520%253A%2520%250A%2520active%2520%253A%2520bg-green-400%250A%2520idle%253A%2520bg-gray-300%250A%2520not%2520active%253A%2520bg-red-500%250A*%252F"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-        </div>
-      
-
-      <div class="badge__container flex flex-col justify-center align-center">
-        <div class="h4 p-4 txt-main-white">Icon Badges</div>
-        <div class="flex flex-row wrap">
-          <i class="badge__icon material-icons relative txt-2xl p-4 txt-main-white">home<div
-              class="badge--left badge--small txt-m bg-red-500 flex justify-center align-center rounded-full absolute">
-              4</div></i>
-
-          <i class="badge__icon material-icons relative txt-2xl p-4 txt-main-white">home<div
-              class="badge--right badge--small txt-m bg--danger flex justify-center align-center rounded-full absolute">
-              4</div></i>
-        </div>
-
-        
-        <div class="h4 p-4 txt-main-white">Text Badges</div>
-        <div class="flex flex-row wrap">
-          
-
-          <div class="relative txt-2xl p-6 txt-gray-600">Text with a badge
-            <div
-              class="badge--right badge--small txt__badge txt-l bg-dark-blue-200 font-sans absolute rounded-m">
-              New!</div>
+        <div class="component__container avatar__badge__container ">
+          <div class="avatar__wrapper relative rounded-full  flex justify-center align-center">
+            <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
+              class="avatar--medium rounded-full box-shadow" />
+            <div class="badge--small badge__position--medium bg--success rounded-full absolute"></div>
           </div>
 
-        </div>
-        <div class="flex flex-row wrap">
-          <div class="relative txt-2xl p-8 txt-gray-600">Text with a Large badge
-            <div
-              class="badge--right badge--large txt__badge txt-xl bg-dark-blue-200 font-sans absolute rounded-m">
-              New!</div>
+          <div class="avatar__wrapper relative rounded-full  flex justify-center align-center">
+            <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
+              class="avatar--medium rounded-full box-shadow" />
+            <div class="badge--small badge__position--medium bg-gray-300 rounded-full absolute"></div>
+          </div>
+
+          <div class="avatar__wrapper relative rounded-full  flex justify-center align-center">
+            <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
+              class="avatar--medium rounded-full box-shadow" />
+            <div class="badge--small badge__position--medium bg--danger rounded-full absolute"></div>
           </div>
         </div>
-        <div class="iframe__container">
-          <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%252F*%2520Icon%2520Badges%2520*%252F%250A%250A%253Ci%2520class%253D%2522badge__icon%2520material-icons%2520relative%2520txt-2xl%2520p-4%2522%253Ehome%253Cdiv%250Aclass%253D%2522badge--left%2520badge--small%2520txt-m%2520bg-red-500%2520flex%2520justify-center%2520align-center%2520rounded-full%2520absolute%2522%253E%250A4%253C%252Fdiv%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%252F*%2520Use%2520badge--left%252C%2520badge--right%2520for%2520changing%2520the%2520position%2520of%2520the%2520badge%2520*%252F%250A%250A%2509%2509%2509%2509%2520%252F*%2520Text%2520Badges%2520*%252F%250A%250A%253Cdiv%2520class%253D%2522relative%2520txt-2xl%2520p-6%2522%253EText%2520with%2520a%2520badge%250A%253Cdiv%250Aclass%253D%2522badge--right%2520badge--small%2520txt__badge%2520txt-l%2520bg-dark-blue-200%2520font-sans%2520absolute%2520rounded-m%2522%253E%250ANew%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522relative%2520txt-2xl%2520p-8%2522%253EText%2520with%2520a%2520Large%2520badge%250A%253Cdiv%250Aclass%253D%2522badge--right%2520badge--large%2520txt__badge%2520txt-xl%2520bg-dark-blue-200%2520font-sans%2520absolute%2520rounded-m%2522%253E%250ANew%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-        </div>
-        
-<div class="h4 p-4 txt-main-white">Button Badges</div>
+        <pre><code data-language="html" >
+  <!-- Avatar Badge  -->
+ <div class="avatar__wrapper relative rounded-full  flex justify-center align-center">
+    <img src="" alt="" class="avatar--medium rounded-full box-shadow" />
+    <div class="badge--small badge__position--medium bg--success rounded-full absolute"></div>
+ </div>
 
-        
-       
-        <div class="flex flex-row wrap">
-          <button class="button relative m-8 p-4  txt-xl txt-bold bg-violet-400 rounded-m">
-            Button
-            <div
-              class="badge__button--right badge--small txt-m bg-green-400 flex justify-center align-center rounded-full absolute">
-              4</div>
-          </button>
-        
+  <!-- use avatar--small,avatar--medium,avatar--large,avatar--extra-large for Avatar Sizes 
+
+  Use badge__position--small, badge__position--medium,badge__position--large and badge__position--extra-large
+  in accordance with the Avatar Sizes to get the desired result. 
+
+  for color of badge use : 
+ active : bg-green-400
+ idle: bg-gray-300
+ not active: bg-red-500
+  -->
+ </code></pre>
+
+
+
+        <div class="badge__container flex flex-col justify-center align-center">
+          <div class="documentation__subheading h4 p-4 txt-main-white">Icon Badges</div>
+          <div class="component__container flex flex-row wrap">
+            <i class="badge__icon material-icons relative txt-2xl p-4 txt-main-white">home<div
+                class="badge--left badge--small txt-m bg-red-500 flex justify-center align-center rounded-full absolute">
+                4</div></i>
+
+            <i class="badge__icon material-icons relative txt-2xl p-4 txt-main-white">home<div
+                class="badge--right badge--small txt-m bg--danger flex justify-center align-center rounded-full absolute">
+                4</div></i>
+          </div>
+
+          <pre><code data-language="html" >
+  <!-- Icon Badges  -->
+ <i class="badge__icon material-icons relative txt-2xl p-4">home
+    <div class="badge--left badge--small txt-m bg-red-500 flex justify-center align-center rounded-full absolute">4</div>
+ </i>
+
+  <!-- Use badge--left, badge--right for changing the position of the badge  -->
+ </code></pre>
+
+          <div class="documentation__subheading h4 p-4 txt-main-white">Text Badges</div>
+          <div class="component__container flex flex-row wrap">
+
+
+            <div class="relative txt-2xl p-6 txt-gray-200">Text with a badge
+              <div class="badge--right badge--small txt__badge txt-l bg-dark-blue-200 txt-gray-800 font-sans absolute rounded-m">
+                New!</div>
+            </div>
+
+          </div>
+          <div class="component__container flex flex-row wrap">
+            <div class="relative txt-2xl p-8 txt-gray-200">Text with a Large badge
+              <div class="badge--right badge--large txt__badge txt-xl bg-dark-blue-200 txt-gray-800 font-sans absolute rounded-m">
+                New!</div>
+            </div>
+          </div>
+
+          <pre><code data-language="html" >
+  <!-- Text Badges  -->
+ <div class="relative txt-2xl p-6 ">Text with a badge 
+    <div class="badge--right badge--small txt__badge txt-l bg-dark-blue-200 font-sans absolute rounded-m"> New!</div>
+ </div>
+             
+ <div class="relative txt-2xl p-8">Text with a Large badge
+    <div class="badge--right badge--large txt__badge txt-xl bg-dark-blue-200 font-sans absolute rounded-m">New!</div>
+ </div>
+ </code></pre>
+
+          <div class="documentation__subheading h4 p-4 txt-main-white">Button Badges</div>
+
+
+
+          <div class="component__container flex flex-row wrap">
+            <button class="button relative m-8 p-4  txt-xl txt-bold bg-violet-400 rounded-m">
+              Button
+              <div
+                class="badge__button--right badge--small txt-m bg-green-400 flex justify-center align-center rounded-full absolute">
+                4</div>
+            </button>
+
+          </div>
+          <div class=" component__container flex flex-row wrap">
+            <button onclick="badgeToggle()"
+              class="button toggle__button relative m-8 p-4  txt-xl txt-bold bg-violet-400 rounded-m">
+              Toggle
+              <div
+                class="badge__button--right toggle badge--small txt-m bg-green-400 flex justify-center align-center rounded-full absolute">
+                4</div>
+            </button>
+          </div>
+
+          <pre><code data-language="html" >
+  <!-- Button Badges -->
+ <button class="button relative m-8 p-4  txt-xl txt-bold bg-violet-400 rounded-m"> Button
+    <div class="badge__button--right badge--small txt-m bg-green-400 flex justify-center align-center rounded-full absolute"> 4</div>
+ </button>
+  <!-- Toggle Button Badges  -->
+ <button class="button toggle__button relative m-8 p-4  txt-xl txt-bold bg-violet-400 rounded-m"> Toggle
+    <div class="badge__button--right toggle badge--small txt-m bg-green-400 flex justify-center align-center rounded-full absolute"> 4</div>
+ </button>
+ </code></pre>
+
+
         </div>
-        <div class="flex flex-row wrap">
-          <button onclick="badgeToggle()" class="button toggle__button relative m-8 p-4  txt-xl txt-bold bg-violet-400 rounded-m">
-            Toggle
-            <div
-              class="badge__button--right toggle badge--small txt-m bg-green-400 flex justify-center align-center rounded-full absolute">
-              4</div>
-          </button>
-        </div>
-        <div class="iframe__container">
-          <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%252F*%2520Button%2520Badges%2520*%252F%250A%253Cbutton%2520class%253D%2522button%2520relative%2520m-8%2520p-4%2520%2520txt-xl%2520txt-bold%2520bg-violet-400%2520rounded-m%2522%253E%250AButton%250A%253Cdiv%250Aclass%253D%2522badge__button--right%2520badge--small%2520txt-m%2520bg-green-400%2520flex%2520justify-center%2520align-center%2520rounded-full%2520absolute%2522%253E%250A4%253C%252Fdiv%253E%250A%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%252F*%2520Toggle%2520Button%2520Badges%2520*%252F%250A%253Cbutton%2520class%253D%2522button%2520toggle__button%2520relative%2520m-8%2520p-4%2520%2520txt-xl%2520txt-bold%2520bg-violet-400%2520rounded-m%2522%253E%250AToggle%250A%253Cdiv%250Aclass%253D%2522badge__button--right%2520toggle%2520badge--small%2520txt-m%2520bg-green-400%2520flex%2520justify-center%2520align-center%2520rounded-full%2520absolute%2522%253E%250A4%253C%252Fdiv%253E%250A%253C%252Fbutton%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-        </div>
-        
 
       </div>
 
     </div>
-
     </div>
-      </div>
-        
-      
+
+
     </div>
   </main>
-<script src="../../script.js"></script>
+  <script src="../../script.js"></script>
+  <script src="/assets/js/rainbow.js"></script>
+  <script src="/assets/js/language/generic.js"></script>
+  <script src="/assets/js/language/html.js"></script>
 </body>
 
 </html>

@@ -6,162 +6,193 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../../style.css" />
+  <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+  <script src="/assets/js/rainbow-cusom.min.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <title>AtomUI</title>
 </head>
 
-<body>
+<body onload="sh_highlightDocument();">
   <div id="navbar">
     <i id="navbar__icon" class="material-icons">menu</i>
   </div>
   <main>
     <div class="main__grid">
-    <div id="sidebar">
-   <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">AtomUI</a></h1>
+      <div id="sidebar">
+        <h1 id="sidebar__heading" class="txt-bold"><a href="../../home/index.html">AtomUI</a></h1>
 
-      <div id="sidebar__links">
-        <a href="../../documentation.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Docs</div>
-        </a>
-        <a href="../Avatar/avatar.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Avatar</div>
-        </a>
-        <a href="../Alert/alert.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Alert</div>
-        </a>
-        <a href="../Badge/badge.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Badge</div>
-        </a>
-        <a href="../Button/button.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Button</div>
-        </a>
-        <a href="../Card/card.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Card</div>
-        </a>
-        <a href="../Image_/image.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Image</div>
-        </a>
-        <a href="../Input/input.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Input</div>
-        </a>
-        <a href="../List/list.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Lists</div>
-        </a>
-        <a href="../Modal/modal.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Modal</div>
-        </a>
-        <a href="../Navigation/navigation.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Navigation</div>
-        </a>
-        <a href="../Rating/rating.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i> Rating</div>
-        </a>
-        <a href="../Grid/grid.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i> Grid</div>
-        </a>
-        <a href="../Slider/slider.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i> Slider</div>
-        </a>
-        <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i> snackbar</div>
-        </a>
-        <a href="../Text/text.html" id="sidebar__link" tabindex="1">
-          <div id="sidebar__link__text"class="flex justify-center align-center"><i class="material-icons">
-chevron_right
-</i>Text</div>
-        </a>
+        <div id="sidebar__links">
+          <a href="../../documentation.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Docs</div>
+          </a>
+          <a href="../Avatar/avatar.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Avatar</div>
+          </a>
+          <a href="../Alert/alert.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Alert</div>
+          </a>
+          <a href="../Badge/badge.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Badge</div>
+          </a>
+          <a href="../Button/button.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Button</div>
+          </a>
+          <a href="../Card/card.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Card</div>
+          </a>
+          <a href="../Image_/image.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Image</div>
+          </a>
+          <a href="../Input/input.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Input</div>
+          </a>
+          <a href="../List/list.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Lists</div>
+          </a>
+          <a href="../Modal/modal.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Modal</div>
+          </a>
+          <a href="../Navigation/navigation.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Navigation</div>
+          </a>
+          <a href="../Rating/rating.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i> Rating</div>
+          </a>
+          <a href="../Grid/grid.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i> Grid</div>
+          </a>
+          <a href="../Slider/slider.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i> Slider</div>
+          </a>
+          <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i> snackbar</div>
+          </a>
+          <a href="../Text/text.html" id="sidebar__link" tabindex="1">
+            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+                chevron_right
+              </i>Text</div>
+          </a>
+        </div>
       </div>
-    </div>
-    <div id="documentation">
-      
+      <div id="documentation">
+
         <h1 id="documentation__heading" ">Avatars</h1>
-        <p id="documentation__brief">
-         Display profile pictures for you users using these flexible Avatar Components.
-        </p>
-        <div class="h4 p-4 txt-main-white">Round Avatars</div>
-      <div class="avatar__container m-8 ">
-        <div class="avatar__wrapper rounded-full box-shadow flex justify-center align-center">
-          <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
-            class="avatar--small rounded-full" />
-        </div>
+        <div id="documentation__brief">
+          Display profile pictures for you users using these flexible Avatar Components.
+          </div>
+          <div class="documentation__subheading h4 p-4 txt-main-white">Round Avatars</div>
+          <div class="component__container avatar__container m-8 ">
+            <div class="avatar__wrapper rounded-full box-shadow flex justify-center align-center">
+              <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
+                class="avatar--small rounded-full" />
+            </div>
 
-        <div class="avatar__wrapper rounded-full  flex justify-center align-center">
-          <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
-            class="avatar--medium rounded-full box-shadow" />
-        </div>
+            <div class="avatar__wrapper rounded-full  flex justify-center align-center">
+              <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
+                class="avatar--medium rounded-full box-shadow" />
+            </div>
 
-        <div class="avatar__wrapper rounded-full box-shadow  flex justify-center align-center">
-          <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
-            class="avatar--large rounded-full" />
-        </div>
-        <div class="avatar__wrapper rounded-full box-shadow  flex justify-center align-center">
-          <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
-            class="avatar--extra-large rounded-full" />
-        </div>
+            <div class="avatar__wrapper rounded-full box-shadow  flex justify-center align-center">
+              <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
+                class="avatar--large rounded-full" />
+            </div>
+            <div class="avatar__wrapper rounded-full box-shadow  flex justify-center align-center">
+              <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
+                class="avatar--extra-large rounded-full" />
+            </div>
+          </div>
+          <div class="documentation__subheading h4 p-4 txt-main-white">Square Avatars</div>
+          <div class="component__container avatar__container m-8 ">
+            <div class="avatar__wrapper rounded-xl box-shadow  flex justify-center align-center">
+              <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
+                class="avatar--small rounded-xl" />
+            </div>
+
+            <div class="avatar__wrapper rounded-xl box-shadow  flex justify-center align-center">
+              <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
+                class="avatar--medium rounded-xl" />
+            </div>
+
+            <div class="avatar__wrapper rounded-xl box-shadow  flex justify-center align-center">
+              <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
+                class="avatar--large rounded-xl" />
+            </div>
+            <div class="avatar__wrapper rounded-xl box-shadow  flex justify-center align-center">
+              <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
+                class="avatar--extra-large rounded-xl" />
+            </div>
+          </div>
+          <div class="documentation__subheading h4 p-4 txt-main-white">Copy the code below to get started</div>
+          <pre><code data-language="html" >
+
+  <!-- Round Avatars  -->
+
+ <div class="avatar__wrapper rounded-full box-shadow flex justify-center align-center">
+ <img src="" alt="" class="avatar--small rounded-full" />
+ </div>
+ <div class="avatar__wrapper rounded-full  flex justify-center align-center">
+ <img src="" alt="" class="avatar--medium rounded-full box-shadow" />
+ </div>
+ <div class="avatar__wrapper rounded-full box-shadow  flex justify-center align-center">
+ <img src="" alt="" class="avatar--large rounded-full" />
+ </div>
+ <div class="avatar__wrapper rounded-full box-shadow  flex justify-center align-center">
+ <img src="" alt="" class="avatar--extra-large rounded-full" />
+ </div>
+
+ <!-- Square Avatars   -->
+
+ <div class="avatar__wrapper rounded-xl box-shadow  flex justify-center align-center">
+ <img src="" alt="" class="avatar--small rounded-xl" />
+ </div>
+ <div class="avatar__wrapper rounded-xl box-shadow  flex justify-center align-center">
+ <img src="" alt="" class="avatar--medium rounded-xl" />
+ </div>
+ <div class="avatar__wrapper rounded-xl box-shadow  flex justify-center align-center">
+ <img src="" alt="" class="avatar--large rounded-xl" />
+ </div>
+ <div class="avatar__wrapper rounded-xl box-shadow  flex justify-center align-center">
+ <img src="" alt="" class="avatar--extra-large rounded-xl" />
+ </div>
+ 
+</code></pre>
+
       </div>
-      <div class="h4 p-4 txt-main-white">Square Avatars</div>
-      <div class="avatar__container m-8 ">
-        <div class="avatar__wrapper rounded-xl box-shadow  flex justify-center align-center">
-          <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
-            class="avatar--small rounded-xl" />
-        </div>
-
-        <div class="avatar__wrapper rounded-xl box-shadow  flex justify-center align-center">
-          <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
-            class="avatar--medium rounded-xl" />
-        </div>
-
-        <div class="avatar__wrapper rounded-xl box-shadow  flex justify-center align-center">
-          <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
-            class="avatar--large rounded-xl" />
-        </div>
-        <div class="avatar__wrapper rounded-xl box-shadow  flex justify-center align-center">
-          <img src="https://pbs.twimg.com/profile_images/1482399168886829059/-_wOtXBU_400x400.jpg" alt=""
-            class="avatar--extra-large rounded-xl" />
-        </div>
-      </div>
-      <div class="h4 p-4 txt-main-white">Copy the code below to get started</div>
-      <div class="iframe__container">
-          <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=116%25&si=false&es=2x&wm=false&code=%252F*%2520Round%2520Avatars%2520*%252F%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-full%2520box-shadow%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--small%2520rounded-full%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-full%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--medium%2520rounded-full%2520box-shadow%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-full%2520box-shadow%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--large%2520rounded-full%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-full%2520box-shadow%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--extra-large%2520rounded-full%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%252F*%2520Square%2520Avatars%2520*%252F%250A%250Adiv%2520class%253D%2522avatar__wrapper%2520rounded-xl%2520box-shadow%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--small%2520rounded-xl%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-xl%2520box-shadow%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--medium%2520rounded-xl%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-xl%2520box-shadow%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--large%2520rounded-xl%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522avatar__wrapper%2520rounded-xl%2520box-shadow%2520%2520flex%2520justify-center%2520align-center%2522%253E%250A%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%250Aclass%253D%2522avatar--extra-large%2520rounded-xl%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
-          sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
-      
-    </div>
     </div>
   </main>
-
+  <script src="/assets/js/rainbow.js"></script>
+  <script src="/assets/js/language/generic.js"></script>
+  <script src="/assets/js/language/html.js"></script>
   <script src="../../script.js"></script>
 </body>
 
