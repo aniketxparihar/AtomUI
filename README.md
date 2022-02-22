@@ -1,4 +1,4 @@
-# Atom UI
+# [Atom UI](https://atomui.netlify.app)
 
 A lightweight, easy to use and fully customizable CSS component library
 
@@ -75,4 +75,4 @@ Just add followinG lines of code in `<head/>` tag of your html file.
 
 ### Feedback
 
-If you have any feedback/suggestions, please reach out to me at aniketxparihar@gmail.com
+If you have any feedback/suggestions, please reach out to me at aniketxparihar@gmail.com ,[@aniketxparihar](https://twitter.com/aniketxparihar)
