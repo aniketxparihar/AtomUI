@@ -1,163 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link href="/assets/css/theme.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/js/rainbow-cusom.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>AtomUI</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../../style.css" />
-    <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
-  <script src="/assets/js/rainbow-cusom.min.js"></script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  <title>AtomUI</title>
-</head>
+  <body onload="sh_highlightDocument();">
+    <div id="navbar">
+      <i id="navbar__icon" class="material-icons">menu</i>
+    </div>
+    <main>
+      <div class="main__grid">
+        <section id="sidebar">
+          <h1 id="sidebar__heading" class="txt-bold">
+            <a href="../../index.html">AtomUI</a>
+          </h1>
 
-<body onload="sh_highlightDocument();">
+          <div id="sidebar__links">
+            <a href="../../documentation.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Docs.
+              </div>
+            </a>
+            <a href="../Avatar/avatar.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Avatar
+              </div>
+            </a>
+            <a href="../Alert/alert.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Alert
+              </div>
+            </a>
+            <a href="../Badge/badge.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Badge
+              </div>
+            </a>
+            <a href="../Button/button.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Button
+              </div>
+            </a>
+            <a href="../Card/card.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Card
+              </div>
+            </a>
+            <a href="../Image_/image.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Image
+              </div>
+            </a>
+            <a href="../Input/input.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Input
+              </div>
+            </a>
+            <a href="../List/list.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center active"
+              >
+                <i class="material-icons"> chevron_right </i>Lists
+              </div>
+            </a>
+            <a href="../Modal/modal.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Modal
+              </div>
+            </a>
+            <a
+              href="../Navigation/navigation.html"
+              id="sidebar__link"
+              tabindex="1"
+            >
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Navigation
+              </div>
+            </a>
+            <a href="../Rating/rating.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i> Rating
+              </div>
+            </a>
+            <a href="../Grid/grid.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i> Grid
+              </div>
+            </a>
+            <a href="../Slider/slider.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i> Slider
+              </div>
+            </a>
+            <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i> snackbar
+              </div>
+            </a>
+            <a href="../Text/text.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Text
+              </div>
+            </a>
+          </div>
+        </section>
+        <section id="documentation">
+          <h1 id="documentation__heading">Lists</h1>
+          <p id="documentation__brief">
+            Serve different lists to your users for inputs or simple display of
+            data.
+          </p>
+          <div class="component__container flex flex-col">
+            <div class="documentation__subheading h4 p-4 txt-main-white">
+              Spaced List
+            </div>
+            <div class="list__wrapper flex flex-col bg-main-black">
+              <div class="list__head txt-3xl txt-main-white p-4">Search</div>
+              <div class="list__spaced">
+                <div class="list__item txt-2xl txt-main-white p-4">Item 1</div>
+                <div class="list__item txt-2xl txt-main-white p-4">Item 2</div>
+                <div class="list__item txt-2xl txt-main-white p-4">Item 3</div>
+              </div>
+            </div>
+            <div class="documentation__subheading h4 p-4 txt-main-white">
+              Stacked List
+            </div>
 
-  <div id="navbar">
-    <i id="navbar__icon" class="material-icons">menu</i>
-  </div>
-  <main>
-    <div class="main__grid">
-      <div id="sidebar">
-        <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">AtomUI</a></h1>
+            <div class="list__wrapper flex flex-col bg-main-black">
+              <div class="list__head txt-3xl txt-main-white p-4">
+                Categories
+              </div>
+              <div class="list__stacked">
+                <div class="list__item txt-2xl txt-main-white p-4">Shorts</div>
+                <div class="list__item txt-2xl txt-main-white p-4">Tshirts</div>
+                <div class="list__item txt-2xl txt-main-white p-4">Hoodie</div>
+                <div class="list__item txt-2xl txt-main-white p-4">Bomber</div>
+              </div>
+            </div>
+            <div class="documentation__subheading h4 p-4 txt-main-white">
+              Select List
+            </div>
 
-        <div id="sidebar__links">
-          <a href="../../documentation.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Docs.</div>
-          </a>
-          <a href="../Avatar/avatar.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Avatar</div>
-          </a>
-          <a href="../Alert/alert.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Alert</div>
-          </a>
-          <a href="../Badge/badge.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Badge</div>
-          </a>
-          <a href="../Button/button.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Button</div>
-          </a>
-          <a href="../Card/card.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Card</div>
-          </a>
-          <a href="../Image_/image.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Image</div>
-          </a>
-          <a href="../Input/input.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Input</div>
-          </a>
-          <a href="../List/list.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Lists</div>
-          </a>
-          <a href="../Modal/modal.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Modal</div>
-          </a>
-          <a href="../Navigation/navigation.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Navigation</div>
-          </a>
-          <a href="../Rating/rating.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i> Rating</div>
-          </a>
-          <a href="../Grid/grid.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i> Grid</div>
-          </a>
-          <a href="../Slider/slider.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i> Slider</div>
-          </a>
-          <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i> snackbar</div>
-          </a>
-          <a href="../Text/text.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Text</div>
-          </a>
-        </div>
-      </div>
-      <div id="documentation">
+            <div class="list__wrapper flex flex-col bg-main-black">
+              <div class="list__head txt-4xl txt-main-white p-4">Search</div>
+              <div class="list__select">
+                <div class="flex justify-center align-center">
+                  <input
+                    type="checkbox"
+                    id="option_one"
+                    name="option_one"
+                    class="list__item__select"
+                    value="Bike"
+                  />
+                  <label class="txt-xl txt-main-white" for="option_one">
+                    Men</label
+                  >
+                </div>
 
-        <h1 id="documentation__heading">Lists</h1>
-        <p id="documentation__brief">
-        Serve different lists to your users for inputs or simple display of data.
-        </p>
-        <div class="component__container flex flex-col">
-          <div class="documentation__subheading h4 p-4 txt-main-white">Spaced List</div>
-          <div class="list__wrapper flex flex-col bg-main-black">
-            <div class="list__head txt-3xl txt-main-white p-4">Search</div>
-            <div class="list__spaced">
-              <div class="list__item txt-2xl txt-main-white p-4 ">Item 1</div>
-              <div class="list__item txt-2xl txt-main-white p-4 ">Item 2</div>
-              <div class="list__item txt-2xl txt-main-white p-4 ">Item 3</div>
+                <div class="flex justify-center align-center">
+                  <input
+                    type="checkbox"
+                    id="option_one"
+                    name="option_two"
+                    class="list__item__select"
+                    value="Bike"
+                  />
+                  <label class="txt-xl txt-main-white" for="option_two">
+                    Women</label
+                  >
+                </div>
+
+                <div class="flex justify-center align-center">
+                  <input
+                    type="checkbox"
+                    id="option_one"
+                    name="option_three"
+                    class="list__item__select"
+                    value="Bike"
+                  />
+                  <label class="txt-xl txt-main-white" for="option_three">
+                    Children</label
+                  >
+                </div>
+              </div>
             </div>
           </div>
-          <div class="documentation__subheading h4 p-4 txt-main-white">Stacked List</div>
-         
-          <div class="list__wrapper flex flex-col bg-main-black">
-            <div class="list__head txt-3xl txt-main-white p-4">Categories</div>
-            <div class="list__stacked">
-              <div class="list__item txt-2xl txt-main-white p-4 ">Shorts</div>
-              <div class="list__item txt-2xl txt-main-white p-4 ">Tshirts</div>
-              <div class="list__item txt-2xl txt-main-white p-4 ">Hoodie</div>
-              <div class="list__item txt-2xl txt-main-white p-4 ">Bomber</div>
-            </div>
-          </div>
-          <div class="documentation__subheading h4 p-4 txt-main-white">Select List</div>
-          
-          <div class="list__wrapper flex flex-col bg-main-black">
-            <div class="list__head txt-4xl txt-main-white p-4">Search</div>
-            <div class="list__select">
-              <div class="flex justify-center align-center">
-                <input type="checkbox" id="option_one" name="option_one" class="list__item__select" value="Bike">
-                <label class="txt-xl txt-main-white" for="option_one"> Men</label>
-              </div>
-
-              <div class="flex justify-center align-center">
-                <input type="checkbox" id="option_one" name="option_two" class="list__item__select" value="Bike">
-                <label class="txt-xl txt-main-white" for="option_two"> Women</label>
-              </div>
-
-              <div class="flex justify-center align-center">
-                <input type="checkbox" id="option_one" name="option_three" class="list__item__select" value="Bike">
-                <label class="txt-xl txt-main-white" for="option_three"> Children</label>
-              </div>
-
-            </div>
-          </div>
-
-
-        </div>
-        <pre><code data-language="html" >
+          <pre><code data-language="html" >
 
   <!-- Spaced List -->
   <div class="list__wrapper flex flex-col bg-main-black">
@@ -203,13 +287,12 @@
   </div>
   </div>
       </code></pre>
+        </section>
       </div>
-    </div>
-  </main>
-  <script src="/assets/js/rainbow.js"></script>
-  <script src="/assets/js/language/generic.js"></script>
-  <script src="/assets/js/language/html.js"></script>
-  <script src="../../script.js"></script>
-</body>
-
+    </main>
+    <script src="/assets/js/rainbow.js"></script>
+    <script src="/assets/js/language/generic.js"></script>
+    <script src="/assets/js/language/html.js"></script>
+    <script src="../../script.js"></script>
+  </body>
 </html>

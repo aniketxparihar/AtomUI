@@ -1,41 +1,39 @@
 @import url("../style.css");
 
-
-.list__wrapper{
-    margin:0rem;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    border:1px solid var(--gray-600);
+.list__wrapper {
+  margin: 0rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--gray-600);
 }
-.list__spaced{
-    min-width:100%;
-    list-style: none;
-    display:flex;
-    justify-content: space-around;
-    text-align: center;
-    
+.list__spaced {
+  min-width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
-.list__stacked{
-    max-width:100%;
-    list-style: none;
-    display:flex;
-    flex-direction: column;   
+.list__stacked {
+  max-width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
 }
-.list__select{
-    width:fit-content;
-    list-style: none;
-    display:flex;
-    flex-direction: column; 
-    align-items: flex-start;  
-    margin:1rem 0.5rem;
+.list__select {
+  width: fit-content;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1rem 0.5rem;
 }
-.list__item{
-    min-width:fit-content;
+.list__item {
+  min-width: fit-content;
 }
-.list__item__select{
-    margin-right: 8px;
+.list__item__select {
+  margin-right: 8px;
 }
-.list__head{
-    border-bottom:1px solid var(--gray-600);
+.list__head {
+  border-bottom: 1px solid var(--gray-600);
 }

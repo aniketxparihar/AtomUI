@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../../style.css" />
-  <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/theme.css" rel="stylesheet" type="text/css" />
   <script src="/assets/js/rainbow-cusom.min.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <title>AtomUI</title>
@@ -18,7 +18,7 @@
   </nav>
   <main>
     <div class="main__grid">
-      <div id="sidebar">
+      <section id="sidebar">
         <h1 id="sidebar__heading" class="txt-bold">
           <a href="../../index.html">AtomUI</a>
         </h1>
@@ -35,7 +35,7 @@
             </div>
           </a>
           <a href="../Alert/alert.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center">
+            <div id="sidebar__link__text" class="flex justify-center align-center active">
               <i class="material-icons"> chevron_right </i>Alert
             </div>
           </a>
@@ -105,15 +105,16 @@
             </div>
           </a>
         </div>
-      </div>
-      <div id="documentation">
+      </section>
+      <section id="documentation">
         <h1 id="documentation__heading">Alerts</h1>
         <p id="documentation__brief">
-          Provide contextual feedback messages for typical user actions with the handful of available and flexible alert
-          messages.
+          Provide contextual feedback messages for typical user actions with
+          the handful of available and flexible alert messages.
         </p>
-        <div class="documentation__subheading h4 p-4 txt-main-white">Solid Alerts</div>
-
+        <div class="documentation__subheading h4 p-4 txt-main-white">
+          Solid Alerts
+        </div>
         <div class="component__container alert__container flex-col">
           <div class="alert__solid--success m-8 box-shadow txt-2xl flex justify-start align-center rounded-m">
             <i class="alert__icon material-icons p-1">check_circle</i>Your
@@ -132,7 +133,9 @@
             How may I help you?
           </div>
         </div>
-        <div class="documentation__subheading h4 p-4 txt-main-white">Outlined Alerts</div>
+        <div class="documentation__subheading h4 p-4 txt-main-white">
+          Outlined Alerts
+        </div>
         <div class="component__container alert__container flex-col">
           <div class="alert__outline--success m-8 box-shadow txt-2xl flex justify-start align-center rounded-m">
             <i class="alert__icon material-icons p-1">check_circle</i>Your
@@ -151,12 +154,13 @@
             How may I help you?
           </div>
         </div>
-        <div class="documentation__subheading h4 p-4 txt-main-white">Copy the code below to get started</div>
-
+        <div class="documentation__subheading h4 p-4 txt-main-white">
+          Copy the code below to get started
+        </div>
 
         <pre><code data-language="html" >
 
- <!-- Solid Alert  -->
+      <!-- Solid Alert  -->
 
  <div class="alert__solid--success m-8 box-shadow txt-2xl flex justify-start align-center rounded-m">
  <i class="alert__icon material-icons p-1">check_circle</i>Your action was successful! </div>
@@ -184,9 +188,9 @@
  <div class="alert__outline--info box-shadow m-8 box-shadow txt-2xl flex justify-start align-center rounded-m">
  <i class="alert__icon material-icons p-1">announcement</i>Hello! How may I help you?
  </div>
- </code></pre>
-
-      </div>
+ </code>
+</pre>
+      </section>
     </div>
   </main>
   <script src="/assets/js/rainbow.js"></script>

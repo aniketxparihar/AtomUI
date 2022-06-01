@@ -1,38 +1,40 @@
 @import url("../style.css");
 
-.button{
-    max-height:4rem;
-    outline:none;
-    cursor:pointer;
-    padding:1rem 4rem;
-    transition: 0.4s;
+.button {
+  max-height: 4rem;
+  cursor: pointer;
+  padding: 1rem 4rem;
+  transition: 0.4s;
 }
-.button:hover{
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+.button:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
-.bg--none{
-    background: none;
-}
-
-.button__float{
-    max-height:4rem;
-    max-width:4rem;
-    cursor:pointer;
-}
-.button__icon{
-display:inline-flex;
-vertical-align:bottom;
-padding-right:0.5rem;
+.bg--none {
+  background: none;
 }
 
-.button__icon--float{
-display:inline-flex;
-vertical-align:bottom;
+.button__float {
+  max-height: 4rem;
+  max-width: 4rem;
+  cursor: pointer;
+}
+.button__icon {
+  display: inline-flex;
+  vertical-align: bottom;
+  padding-right: 0.5rem;
 }
 
-.button:hover{
- opacity:0.9;
+.button__icon--float {
+  display: inline-flex;
+  vertical-align: bottom;
 }
-.button:active,.button__float:active{
- opacity:0.6;
+
+.button:hover {
+  opacity: 0.9;
+}
+.button:active,
+.button__float:active {
+  opacity: 0.6;
+  transform: scale(0.98)
 }

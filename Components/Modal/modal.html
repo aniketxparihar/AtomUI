@@ -1,126 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-    <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
-  <script src="/assets/js/rainbow-cusom.min.js"></script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  <link rel="stylesheet" href="../../style.css" />
-  <title>AtomUI</title>
-</head>
+    <link href="/assets/css/theme.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/js/rainbow-cusom.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../style.css" />
+    <title>AtomUI</title>
+  </head>
 
-<body >
+  <body>
+    <div id="navbar">
+      <i id="navbar__icon" class="material-icons">menu</i>
+    </div>
+    <main>
+      <div class="main__grid">
+        <section id="sidebar">
+          <h1 id="sidebar__heading" class="txt-bold">
+            <a href="../../index.html">AtomUI</a>
+          </h1>
 
+          <div id="sidebar__links">
+            <a href="../../documentation.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Docs.
+              </div>
+            </a>
+            <a href="../Avatar/avatar.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Avatar
+              </div>
+            </a>
+            <a href="../Alert/alert.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Alert
+              </div>
+            </a>
+            <a href="../Badge/badge.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Badge
+              </div>
+            </a>
+            <a href="../Button/button.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Button
+              </div>
+            </a>
+            <a href="../Card/card.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Card
+              </div>
+            </a>
+            <a href="../Image_/image.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Image
+              </div>
+            </a>
+            <a href="../Input/input.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Input
+              </div>
+            </a>
+            <a href="../List/list.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Lists
+              </div>
+            </a>
+            <a href="../Modal/modal.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center active"
+              >
+                <i class="material-icons"> chevron_right </i>Modal
+              </div>
+            </a>
+            <a
+              href="../Navigation/navigation.html"
+              id="sidebar__link"
+              tabindex="1"
+            >
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Navigation
+              </div>
+            </a>
+            <a href="../Rating/rating.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i> Rating
+              </div>
+            </a>
+            <a href="../Grid/grid.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i> Grid
+              </div>
+            </a>
+            <a href="../Slider/slider.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i> Slider
+              </div>
+            </a>
+            <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i> snackbar
+              </div>
+            </a>
+            <a href="../Text/text.html" id="sidebar__link" tabindex="1">
+              <div
+                id="sidebar__link__text"
+                class="flex justify-center align-center"
+              >
+                <i class="material-icons"> chevron_right </i>Text
+              </div>
+            </a>
+          </div>
+        </section>
+        <section id="documentation">
+          <h1 id="documentation__heading">Modal</h1>
+          <p id="documentation__brief">
+            Modals are very useful to grab users attention to a specific task.
+          </p>
+          <div class="documentation__subheading h4 p-4 txt-main-white">
+            General Purpose Customisable Modal
+          </div>
+          <div class="component__container">
+            <button
+              onclick="modalOpen()"
+              class="button m-8 p-4 modal__button txt-2xl txt-bold bg--primary rounded-m"
+            >
+              Modal
+            </button>
+          </div>
 
-  <div id="navbar">
-    <i id="navbar__icon" class="material-icons">menu</i>
-  </div>
-  <main>
-    <div class="main__grid">
-      <div id="sidebar">
-        <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">AtomUI</a></h1>
-
-        <div id="sidebar__links">
-          <a href="../../documentation.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Docs.</div>
-          </a>
-          <a href="../Avatar/avatar.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Avatar</div>
-          </a>
-          <a href="../Alert/alert.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Alert</div>
-          </a>
-          <a href="../Badge/badge.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Badge</div>
-          </a>
-          <a href="../Button/button.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Button</div>
-          </a>
-          <a href="../Card/card.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Card</div>
-          </a>
-          <a href="../Image_/image.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Image</div>
-          </a>
-          <a href="../Input/input.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Input</div>
-          </a>
-          <a href="../List/list.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Lists</div>
-          </a>
-          <a href="../Modal/modal.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Modal</div>
-          </a>
-          <a href="../Navigation/navigation.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Navigation</div>
-          </a>
-          <a href="../Rating/rating.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i> Rating</div>
-          </a>
-          <a href="../Grid/grid.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i> Grid</div>
-          </a>
-          <a href="../Slider/slider.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i> Slider</div>
-          </a>
-          <a href="../Snackbar/snackbar.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i> snackbar</div>
-          </a>
-          <a href="../Text/text.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
-                chevron_right
-              </i>Text</div>
-          </a>
-        </div>
-      </div>
-      <div id="documentation">
-        <h1 id="documentation__heading">Modal</h1>
-        <p id="documentation__brief">
-          Modals are very useful to grab users attention to a specific task.
-        </p>
-        <div class="documentation__subheading h4 p-4 txt-main-white">General Purpose Customisable Modal</div>
-        <div class="component__container">
-          <button onclick="modalOpen()" class="button m-8 p-4 modal__button  txt-2xl txt-bold bg--primary rounded-m">
-            Modal
-          </button>
-        </div>
-        
-
-        <pre><code data-language="html" >
+          <pre><code data-language="html" >
   <!-- use modal__button in class along with button -->
  <!-- 
     <button  class="button m-8 p-4   txt-2xl txt-bold bg-violet-400 rounded-m">
@@ -141,27 +199,25 @@
  -->
  
   </code></pre>
+        </section>
+      </div>
+    </main>
 
+    <div class="modal__screen">
+      <div class="modal__box flex justify-center align-center">
+        <div class="modal bg-gray-200 relative">
+          <i
+            onclick="modalClose()"
+            class="material-icons remove remove__modal absolute txt-main-black pointer"
+            >cancel</i
+          >
+        </div>
       </div>
     </div>
-  </main>
 
-
-  
-  <div class="modal__screen" >
-    <div class="modal__box flex justify-center align-center">
-      <div class="modal bg-gray-200 relative">
-        <i onclick="modalClose()" class="material-icons remove remove__modal absolute txt-main-black pointer">cancel</i>
-
-      </div>
-    </div>
-  </div>
- 
-  
-  <script src="/assets/js/rainbow.js"></script>
-  <script src="/assets/js/language/generic.js"></script>
-  <script src="/assets/js/language/html.js"></script>
-  <script defer src="../../script.js"></script>
-</body>
-
+    <script src="/assets/js/rainbow.js"></script>
+    <script src="/assets/js/language/generic.js"></script>
+    <script src="/assets/js/language/html.js"></script>
+    <script defer src="../../script.js"></script>
+  </body>
 </html>

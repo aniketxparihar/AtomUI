@@ -1,12 +1,11 @@
 @import url("../style.css");
 
-.input__tag{
-    top:-0.8rem;
-    left:2rem;
-    padding:0 1rem;
-    border-radius: 50%;
+.input__tag {
+  top: -0.8rem;
+  left: 2rem;
+  padding: 0 1rem;
+  border-radius: 50%;
 }
-.input__text{
-    outline:none;
-    background:none
+.input__text {
+  background: none;
 }

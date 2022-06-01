@@ -1,77 +1,67 @@
 @import url("style.css");
 
-body{
-
-    background-color: var(--main-black);
-    overflow: hidden;
+body {
+  background-color: var(--main-black);
+  overflow: hidden;
 }
-nav{
-    border-bottom: 1px solid var(--gray-400);
+nav {
+  border-bottom: 1px solid var(--gray-400);
 }
-#main{
-    height:100%;
-    width:100%;
-    /* background-color:var(--main-black); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#main__text{
- width:100%;
- text-align: center;
- font-size: 6rem;
- text-shadow: 4px 4px 0px var(--main-black),6px 6px 0px var(--primary);
+#main__text {
+  width: 100%;
+  text-align: center;
+  font-size: 6rem;
+  text-shadow: 4px 4px 0px var(--main-black), 6px 6px 0px var(--primary);
 }
-#secondary__text{
-    text-align: center;
-    
+#secondary__text {
+  text-align: center;
 }
-#me{
-    justify-self: flex-end;
+#me {
+  justify-self: flex-end;
 }
-.fa{
-    margin-right: 1rem;
-    position:relative;
-    
+.fa {
+  margin-right: 1rem;
+  position: relative;
 }
-#contact{
-    position: relative;
-    top:2px;
-    margin-left:auto;
-    color:var(--light-blue-600);
+#contact {
+  position: relative;
+  top: 2px;
+  margin-left: auto;
+  color: var(--light-blue-600);
 }
 
-.landing_page_svg{
-    height: 40rem;
+.landing_page_svg {
+  height: 40rem;
 }
 
-.grids{
-    position: absolute;
-    width:100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(6,1fr);
-    z-index: -999;
+.grids {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  z-index: -999;
 }
-.grid{
-    border: 1px solid var(--gray-700);
-    aspect-ratio: 1/1;
-    
+.grid {
+  border: 1px solid var(--gray-700);
+  aspect-ratio: 1/1;
 }
 @media only screen and (max-width: 1050px) {
- 
-    #main{
-        flex-direction: column;
-    }
-    .landing_page_svg{
+  #main {
+    flex-direction: column;
+  }
+  .landing_page_svg {
     height: 30rem;
+  }
+  #main__text {
+    font-size: 5rem;
+  }
 }
-#main__text{
-
- font-size: 5rem;
- 
-}
-}
-

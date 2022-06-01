@@ -29,7 +29,6 @@ const badgeToggle = () => {
 }
 
 hamburger.addEventListener("click", (e) => {
-    e.preventDefault();
     if (open == false) {
         sidebar.style.left = "0rem";
 
@@ -41,16 +40,15 @@ hamburger.addEventListener("click", (e) => {
     open = !open;
 })
 hamburgerButton.addEventListener('click', (e) => {
-    e.preventDefault();
-    if (hamburgerToggle===false) { drawer.style.right = "0rem"; hamburgerToggle = !hamburgerToggle;console.log(hamburgerToggle)}
-    else  { drawer.style.right = "-100rem"; hamburgerToggle = !hamburgerToggle; console.log(hamburgerToggle) }
+    if (hamburgerToggle === false) { drawer.style.right = "0rem"; hamburgerToggle = !hamburgerToggle; console.log(hamburgerToggle) }
+    else { drawer.style.right = "-100rem"; hamburgerToggle = !hamburgerToggle; console.log(hamburgerToggle) }
 })
 
 sliderValue.innerHTML = slider.value;
 function changeValue() {
-sliderValue.innerHTML = slider.value;
+    sliderValue.innerHTML = slider.value;
 }
-    
 
-    
+
+
 

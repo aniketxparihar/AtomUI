@@ -1,23 +1,23 @@
 @import url("../style.css");
 
-.modal__screen{
-    height:100%;
-    width: 100%;
-    position: absolute;
-    z-index: 9999;
-    display: none;
+.modal__screen {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 9999;
+  display: none;
 }
-.modal__visible{
-    display:block;
+.modal__visible {
+  display: block;
 }
-.modal__box{
-    height:100%;
-    width: 100%;
-    justify-self: center;
-    align-self: center;
-    backdrop-filter:blur(2px);
+.modal__box {
+  height: 100%;
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+  backdrop-filter: blur(2px);
 }
-.modal{
-    height:60%;
-    width: 60%;
+.modal {
+  height: 60%;
+  width: 60%;
 }

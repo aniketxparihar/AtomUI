@@ -21,7 +21,6 @@
 /* CDN links */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
-
 /* reset css */
 * {
   margin: 0;
@@ -73,7 +72,6 @@ main {
 }
 
 /* Rainbow JS Style */
-
 pre.rainbow-show {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -94,8 +92,8 @@ code.rainbow.rainbow-show {
   margin: 0;
   display: none;
 }
-/* navbar components */
 
+/* navbar components */
 #navbar {
   display: none;
   color: var(--text-white);
@@ -165,14 +163,14 @@ code.rainbow.rainbow-show {
 .color__box {
   height: 6rem;
   width: 6rem;
+  font-size: 1.4rem;
 }
-
 
 /* Main Grid */
 .main__grid {
   width: 100%;
   display: grid;
-  grid-template-columns: 3fr 6fr;
+  grid-template-columns: 2fr 6fr;
   position: relative;
   overflow: auto;
 }
@@ -190,6 +188,7 @@ code.rainbow.rainbow-show {
   border-right: 1px solid var(--gray-600);
   transition: 0.5s;
   overflow-y: auto;
+  overflow-x:scroll;
 }
 
 #sidebar::-webkit-scrollbar {
@@ -204,16 +203,17 @@ code.rainbow.rainbow-show {
   align-items: center;
   font-size: 4rem;
   padding: 2rem;
+  margin-bottom:2rem;
   color: var(--main-white);
- 
 }
 
 #sidebar__links {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: flex-end;
+  overflow-x: scroll;
 }
 
 #sidebar__link {
@@ -267,7 +267,6 @@ code.rainbow.rainbow-show {
   font-weight: bold;
   color: var(--primary);
   margin-left: 2rem;
- 
 }
 
 #documentation__brief {
@@ -302,6 +301,10 @@ code.rainbow.rainbow-show {
   justify-content: center;
 }
 
+.active {
+  color: var(--dark-blue-300);
+  transform: translateX(4px);
+}
 /* Media Queries */
 @media only screen and (max-width: 1140px) {
   html {

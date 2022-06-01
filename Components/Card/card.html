@@ -13,13 +13,13 @@
 </head>
 
 <body onload="sh_highlightDocument();">
-  
+
   <div id="navbar">
     <i id="navbar__icon" class="material-icons">menu</i>
   </div>
   <main>
     <div class="main__grid">
-      <div id="sidebar">
+      <section id="sidebar">
         <h1 id="sidebar__heading" class="txt-bold"><a href="../../index.html">AtomUI</a></h1>
 
         <div id="sidebar__links">
@@ -49,7 +49,7 @@
               </i>Button</div>
           </a>
           <a href="../Card/card.html" id="sidebar__link" tabindex="1">
-            <div id="sidebar__link__text" class="flex justify-center align-center"><i class="material-icons">
+            <div id="sidebar__link__text" class="flex justify-center align-center active"><i class="material-icons">
                 chevron_right
               </i>Card</div>
           </a>
@@ -104,8 +104,8 @@
               </i>Text</div>
           </a>
         </div>
-      </div>
-      <div id="documentation">
+      </section>
+      <section id="documentation">
 
         <h1 id="documentation__heading"> Cards</h1>
         <p id="documentation__brief">
@@ -413,8 +413,8 @@
   </div>
 
 </code></pre>
-        
-<div class=" documentation__subheading h4 p-4 txt-main-white">Shopping Cards Vertical</div>
+
+        <div class=" documentation__subheading h4 p-4 txt-main-white">Shopping Cards Vertical</div>
         <div class="component__container card__container">
           <div class="card__wrapper box-shadow flex flex-col m-8 bg--main-white ">
             <div class="card__header flex flex-col relative">
@@ -496,7 +496,7 @@
             </div>
           </div>
         </div>
-       <pre><code data-language="html" >
+        <pre><code data-language="html" >
   <div class="card__wrapper box-shadow flex flex-col m-8 bg--main-white card__shadow">
   <div class="card__header flex flex-col relative">
   <img class="card__image--tall pointer"src=""alt=""/>
@@ -532,7 +532,7 @@
   </div>
 
 </code></pre>
-       
+
         <div class="documentation__subheading h4 p-4 txt-main-white">Shopping Card Horizontal</div>
         <div class="component__container card__container">
           <div class="card__wrapper--horizontal box-shadow flex flex-col m-8 bg--main-black">
@@ -586,12 +586,12 @@
 
 
         </div>
- <pre><code data-language="html" >
- <div class="card__wrapper box-shadow--horizontal card__shadow flex flex-col m-8 bg--main-black">
- <div class="card__header--row flex flex-col relative">
- <img class="" alt=""/>
+        <pre><code data-language="html" >
+        <div class="card__wrapper box-shadow--horizontal card__shadow flex flex-col m-8 bg--main-black">
+        <div class="card__header--row flex flex-col relative">
+        <img class="" alt=""/>
         
- <div class="card__headings--horizontal p-4">
+        <div class="card__headings--horizontal p-4">
  <p class="txt-2xl txt-gray-800">Mens Hoodie</p>
  <p class="txt-2xl txt-gray-500">Nike</p></div>
  <div class="card__footer flex align-center ">
@@ -623,13 +623,13 @@
  </div>
  </div>
  </code></pre>
- </div>
+ </section>
 
 
     </div>
     </div>
   </main>
- <script src="/assets/js/rainbow.js"></script>
+  <script src="/assets/js/rainbow.js"></script>
   <script src="/assets/js/language/generic.js"></script>
   <script src="/assets/js/language/html.js"></script>
   <script src="../../script.js"></script>

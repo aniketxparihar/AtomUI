@@ -1,15 +1,14 @@
 @import url("../style.css");
 
-.image__container{
-    width:20%;
-    position:relative;
-    margin:2rem;
+.image__container {
+  width: 20%;
+  position: relative;
+  margin: 2rem;
 }
-.image__responsive{
-    width:100%;
-    
+.image__responsive {
+  width: 100%;
 }
-.image__rounded{
-    width:100%;
-    aspect-ratio:1/1;
+.image__rounded {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
